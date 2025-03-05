@@ -147,12 +147,27 @@ struct PokleResult : CustomStringConvertible, Hashable {
         ))
     }
 
+    func toInt() -> Int {
+        let firstDigit = result.0 == .Green ? 0 : result.0 == .Yellow ? 1 : 2
+        let secondDigit = result.1 == .Green ? 0 : result.1 == .Yellow ? 1 : 2
+        let thirdDigit = result.2 == .Green ? 0 : result.2 == .Yellow ? 1 : 2
+        let fourthDigit = result.3 == .Green ? 0 : result.3 == .Yellow ? 1 : 2
+        let fifthDigit = result.4 == .Green ? 0 : result.4 == .Yellow ? 1 : 2
+
+        var result = firstDigit 
+        result = result * 3 + secondDigit
+        result = result * 3 + thirdDigit
+        result = result * 3 + fourthDigit
+        result = result * 3 + fifthDigit
+        return result
+    }
+
     func hash(into hasher: inout Hasher) {
-        hasher.combine(description)
+        hasher.combine(toInt())
     }
 
     static func == (lhs: PokleResult, rhs: PokleResult) -> Bool {
-        return lhs.description == rhs.description
+        return lhs.toInt() == rhs.toInt()
     }
 }
 
@@ -790,13 +805,35 @@ class Table : CustomStringConvertible , Hashable {
 
     }
 
+    func toUniqueInt() -> Int {
+        var cardNumbers: [Int] = []
+        switch board {
+            case .preFlop:
+                cardNumbers = [0]
+            case .flop(let card1, let card2, let card3):
+                cardNumbers = [card1.number, card2.number, card3.number]
+            case .turn(let card1, let card2, let card3, let card4):
+                cardNumbers = [card1.number, card2.number, card3.number, card4.number]
+            case .river(let card1, let card2, let card3, let card4, let card5):
+                cardNumbers = [card1.number, card2.number, card3.number, card4.number, card5.number]
+        }
+
+        var num = 0
+
+        for cardNumber in cardNumbers {
+            num = num * 52 + cardNumber
+        }
+
+        return num
+    }
+
 
     func hash(into hasher: inout Hasher) {
-        hasher.combine(shortDescription())
+        hasher.combine(toUniqueInt())
     }
 
     static func == (lhs: Table, rhs: Table) -> Bool {
-        return lhs.shortDescription() == rhs.shortDescription()
+        return lhs.toUniqueInt() == rhs.toUniqueInt()
     }
 }
 
@@ -947,54 +984,99 @@ class Pokle : CustomStringConvertible {
         //Computer sum of elimated tables for each result and answer
         var elimatedTables: [Table: [PokleResult: Int]] = [:]
 
+        var flopTable : [[[[Table]]]] = Array(repeating: Array(repeating: Array(repeating: [], count: 52), count: 52), count: 52)
+        var uniqueFlops : [Table] = []
+
         var optimalTable: Table = tables[0]
         var maxSum = 0
 
-        var tablesToUse = tables
+        print("Starting to calculate flop table")
 
-        if tables.count > 2000 {
-            print("Too many tables, using random subset of tables")
-            tablesToUse = Array(tables.shuffled().prefix(2000))
-        }
-
-        var possibleResults: [PokleResult] = []
-
-        for answer in tablesToUse {
-            for guess in tablesToUse {
-                if let result = Table.getPokleResultFromAnswerAndGuess(answer: answer, guess: guess)  {
-                    possibleResults.append(result)
+        for table in tables {
+            if case let .river(card1, card2, card3, _, _) = table.board {
+                if flopTable[card1.number][card2.number][card3.number].count == 0 {
+                    let tempTable = Table(board: .flop(card1, card2, card3))
+                    uniqueFlops.append(tempTable)
                 }
+                flopTable[card1.number][card2.number][card3.number].append(table)
             }
         }
 
-        possibleResults = Array(Set(possibleResults))
+        print("Finished calculating flop table")
+        print("Unique Flops: \(uniqueFlops.count)")
+
+        var possibleResults: Set<PokleResult> = []
+
+        for answer in Progress(tables) {
+            for guess in tables {
+                if let result = Table.getPokleResultFromAnswerAndGuess(answer: answer, guess: guess) {            
+                    possibleResults.insert(result)
+                }
+            }
+        }
 
         print("Starting to calculate elimation table")
         print("Possible Results: \(possibleResults.count)")
 
-        for index in Progress(0..<tablesToUse.count){
-            for result in possibleResults{
-                let answer =  tablesToUse[index]
+        for index in Progress(0..<uniqueFlops.count){
+            let answerFlop = uniqueFlops[index]
+            for result in possibleResults {
+                if case let .flop(answer_card1, answer_card2, answer_card3) = answerFlop.board {
+                    let answerTables = flopTable[answer_card1.number][answer_card2.number][answer_card3.number]
+                    var counts: [Int] = Array(repeating: 0, count: answerTables.count)
+                    
+                    for guessFlopIdx in 0..<(uniqueFlops.count - index) {
+                        let guessFlop = uniqueFlops[guessFlopIdx]
+                        if case let .flop(guessed_card1, guessed_card2, guessed_card3) = guessFlop.board {
+                            let guessTables = flopTable[guessed_card1.number][guessed_card2.number][guessed_card3.number]
+                            var guessCounts = Array(repeating: 0, count: guessTables.count)
+                            if answerFlop.conform(guess: guessFlop, result: result) {
 
-                var count = 0
-                for guess in tablesToUse {
-                    count += answer.conform(guess: guess, result: result) ? 0 : 1
+                                for (index, answer) in answerTables.enumerated() {
+                                    for (guessIndex, guess) in guessTables.enumerated() {
+                                        if !answer.conform(guess: guess, result: result) {
+                                            counts[index] += 1
+                                        }
+
+                                        if !guess.conform(guess: answer, result: result) {
+                                            guessCounts[guessIndex] += 1
+                                        }
+                                    }
+                                }
+                            }else{
+                                for (index, _) in answerTables.enumerated() {
+                                    counts[index] += guessTables.count
+                                }
+
+                                for (index, _) in guessTables.enumerated() {
+                                    guessCounts[index] += answerTables.count
+                                }
+                            }
+
+                            for (index, guessTable) in guessTables.enumerated() {
+
+                                let guessResult = (elimatedTables[guessTable] ?? [result : 0])[result] ?? 0
+                                elimatedTables[guessTable] = [result: guessResult + guessCounts[index]]
+                            }
+                        }
+                    }
+
+                    for (index, count) in counts.enumerated() {
+                        elimatedTables[answerTables[index]] = [result: count]
+                    }                   
                 }
-
-                elimatedTables[answer] = [result: count]
             }
         }
-
 
         print("Finished calculating elimation table")
 
         //Find the table with the highest sum of elimated tables for each result
 
-        for i in Progress(0..<tablesToUse.count, configuration: [ProgressPercent(), ProgressBarLine(barLength: 70), ProgressTimeEstimates(), ProgressStringWithUpdate{ "Best Hand: \(optimalTable.board) \(maxSum)"}]){
-            let table = tablesToUse[i]
+        for i in Progress(0..<tables.count, configuration: [ProgressPercent(), ProgressBarLine(barLength: 70), ProgressTimeEstimates(), ProgressStringWithUpdate{ "Best Hand: \(optimalTable.board) \(maxSum)"}]){
+            let table = tables[i]
 
             var sum = 0
-            for answer in tablesToUse{
+            for answer in tables{
                 if let result = Table.getPokleResultFromAnswerAndGuess(answer: answer, guess: table) {
                     sum += (elimatedTables[answer] ?? [result: 0])[result] ?? 0
                 }
@@ -1244,9 +1326,9 @@ func parseRankingsFromCommandLine() -> Trophies {
 func parseTableFromCommandLine() -> Table {
     print("Enter a table (format: '6♠ 8♠ 9♥ 4♦ 7♠' for each hand):")
     if let input = readLine()?.split(separator: " ").map(String.init) {
-        return Table(board: GameState.river(Card.fromString(string: input[0]), Card.fromString(string: input[1]), Card.fromString(string: input[2]), Card.fromString(string: input[3]), Card.fromString(string: input[4])))
+        return Table(board: .river(Card.fromString(string: input[0]), Card.fromString(string: input[1]), Card.fromString(string: input[2]), Card.fromString(string: input[3]), Card.fromString(string: input[4])))
     }
-    return Table(board: GameState.preFlop)
+    return Table(board: .preFlop)
 }
 
 // Add this function to parse a PokleResult from the command line
@@ -1258,24 +1340,112 @@ func parsePokleResultFromCommandLine() -> PokleResult {
     return PokleResult(result: (.Gray, .Gray, .Gray, .Gray, .Gray))
 }
 
-
-print("Welcome the the Pokle Solver")
-let players = parseHandsFromCommandLine()
-let trophies = parseRankingsFromCommandLine()
-
-// Display the input for confirmation
-print("\nYou entered:")
-for i in 0..<players.count {
-    print("Player \(i+1): \(players[i].0) \(players[i].1)")
+// Add this function to parse command line arguments for input file
+func parseInputFile(filePath: String) -> ([(Card, Card)], Trophies)? {
+    do {
+        let fileContents = try String(contentsOfFile: filePath, encoding: .utf8)
+        let lines = fileContents.components(separatedBy: .newlines).filter { !$0.isEmpty }
+        
+        guard lines.count >= 6 else {
+            print("Error: Input file must contain at least 6 lines")
+            return nil
+        }
+        
+        // Parse hands
+        var hands: [(Card, Card)] = []
+        for i in 0..<3 {
+            let handInput = lines[i].split(separator: " ").map(String.init)
+            if handInput.count == 2 {
+                let card1 = Card.fromString(string: handInput[0])
+                let card2 = Card.fromString(string: handInput[1])
+                hands.append((card1, card2))
+            } else {
+                print("Invalid hand format on line \(i+1). Using default hand.")
+                hands.append((Card.fromString(string: "A♠"), Card.fromString(string: "K♥")))
+            }
+        }
+        
+        // Parse rankings
+        var rankings: [[Int]] = []
+        for i in 3..<6 {
+            let rankingInput = lines[i].split(separator: ",").map(String.init)
+            if rankingInput.count == 3 {
+                let parsedRanking = rankingInput.map {
+                    if $0 == "G" {
+                        return 2
+                    } else if $0 == "S" {
+                        return 1
+                    } else if $0 == "B" {
+                        return 0
+                    } else {
+                        return i-3
+                    }
+                }
+                rankings.append(parsedRanking)
+            } else {
+                print("Invalid ranking format on line \(i+1). Using default ranking.")
+                rankings.append([0, 1, 2])
+            }
+        }
+        
+        let trophies = Trophies(trophies: (
+            (rankings[0][0], rankings[0][1], rankings[0][2]),
+            (rankings[1][0], rankings[1][1], rankings[1][2]),
+            (rankings[2][0], rankings[2][1], rankings[2][2])
+        ))
+        
+        return (hands, trophies)
+    } catch {
+        print("Error reading input file: \(error)")
+        return nil
+    }
 }
 
-print("\nRankings:")
-let stateNames = ["Flop", "Turn", "River"]
-print("\(stateNames[0]): \(trophies.trophies.0.0) \(trophies.trophies.0.1) \(trophies.trophies.0.2)")
-print("\(stateNames[1]): \(trophies.trophies.1.0) \(trophies.trophies.1.1) \(trophies.trophies.1.2)")
-print("\(stateNames[2]): \(trophies.trophies.2.0) \(trophies.trophies.2.1) \(trophies.trophies.2.2)")
+print("Welcome to the Pokle Solver")
 
+// Check for input file flag
+var players: [(Card, Card)] = []
+var trophies: Trophies = Trophies(trophies: ((0, 1, 2), (0, 1, 2), (0, 1, 2)))
+var useInputFile = false
 
+let args = CommandLine.arguments
+if args.count > 1 && args[1] == "--input" && args.count > 2 {
+    if let (parsedPlayers, parsedTrophies) = parseInputFile(filePath: args[2]) {
+        players = parsedPlayers
+        trophies = parsedTrophies
+        useInputFile = true
+        
+        // Display the input for confirmation
+        print("\nLoaded from file \(args[2]):")
+        for i in 0..<players.count {
+            print("Player \(i+1): \(players[i].0) \(players[i].1)")
+        }
+        
+        print("\nRankings:")
+        let stateNames = ["Flop", "Turn", "River"]
+        print("\(stateNames[0]): \(trophies.trophies.0.0) \(trophies.trophies.0.1) \(trophies.trophies.0.2)")
+        print("\(stateNames[1]): \(trophies.trophies.1.0) \(trophies.trophies.1.1) \(trophies.trophies.1.2)")
+        print("\(stateNames[2]): \(trophies.trophies.2.0) \(trophies.trophies.2.1) \(trophies.trophies.2.2)")
+    }
+}
+
+// If not using input file, get inputs from command line
+if !useInputFile {
+    players = parseHandsFromCommandLine()
+    trophies = parseRankingsFromCommandLine()
+    
+    // Display the input for confirmation
+    print("\nYou entered:")
+    for i in 0..<players.count {
+        print("Player \(i+1): \(players[i].0) \(players[i].1)")
+    }
+    
+    print("\nRankings:")
+    let stateNames = ["Flop", "Turn", "River"]
+    print("\(stateNames[0]): \(trophies.trophies.0.0) \(trophies.trophies.0.1) \(trophies.trophies.0.2)")
+    print("\(stateNames[1]): \(trophies.trophies.1.0) \(trophies.trophies.1.1) \(trophies.trophies.1.2)")
+    print("\(stateNames[2]): \(trophies.trophies.2.0) \(trophies.trophies.2.1) \(trophies.trophies.2.2)")
+}
 
 let pokle = Pokle(player1: players[0], player2: players[1], player3: players[2], trophies: trophies) 
 
