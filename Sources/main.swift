@@ -4,8 +4,15 @@ import Foundation
 import Algorithms
 import Progress
 
+extension Array {
+    func chunked(into size: Int) -> [[Element]] {
+        return stride(from: 0, to: count, by: size).map {
+            Array(self[$0 ..< Swift.min($0 + size, count)])
+        }
+    }
+}
 
-enum GameState {
+enum GameState : Sendable {
     case preFlop 
     case flop (Card, Card, Card)
     case turn (Card, Card, Card, Card)
@@ -94,7 +101,7 @@ enum HandType {
     }
 }
 
-enum PokleState : CustomStringConvertible {
+enum PokleState : CustomStringConvertible , Sendable {
     case Yellow
     case Gray
     case Green
@@ -171,8 +178,8 @@ struct PokleResult : CustomStringConvertible, Hashable {
     }
 }
 
-class Card : CustomStringConvertible{
-    var number: Int
+struct Card : CustomStringConvertible, Sendable {
+    let number: Int
 
     init(number: Int) {
         self.number = number
@@ -197,7 +204,16 @@ class Card : CustomStringConvertible{
 
     static func fromString(string: String) -> Card {
         let suits = ["♠", "♥", "♦", "♣"]
-        let suit = suits.firstIndex(of: String(string.last!))!
+        let suitsChar = ["s", "h", "d", "c"]
+        var suit: Int
+        if let suitSym = suits.firstIndex(of: String(string.last!)) {
+            suit = suitSym
+        } else {
+            guard let suitChar = suitsChar.firstIndex(of: String(string.last!)) else {
+                return Card(number: -1)
+            }
+            suit = suitChar
+        }
         
         let cardValue: Int
         let valueString = String(string.dropLast())
@@ -210,6 +226,14 @@ class Card : CustomStringConvertible{
         case "Q":
             cardValue = 11
         case "K":
+            cardValue = 12
+        case "a":
+            cardValue = 0
+        case "j":
+            cardValue = 10
+        case "q":
+            cardValue = 11
+        case "k":
             cardValue = 12
         default:
             cardValue = Int(valueString)!-1
@@ -449,27 +473,14 @@ class Hand : CustomStringConvertible {
 }
 
 
-class Table : CustomStringConvertible , Hashable {
-    var board: GameState
-    var players: [(Card, Card)]
+struct Table : CustomStringConvertible , Hashable , Sendable {
+    let board: GameState
+    let players: [(Card, Card)]
 
 
     init(board: GameState, players: [(Card, Card)] = []) {
         self.board = board
         self.players = players
-    }
-
-    func addPlayer(hand: Hand) -> Bool {
-        if GameState.compare(board, hand.board) {
-            players.append((hand.hand.0, hand.hand.1))
-            return true
-        }
-        return false
-    }
-
-    func addPlayer(hand: (Card, Card)) -> Bool {
-        players.append(hand)
-        return true
     }
 
     func comparePlayers(player1: (Card, Card), player2: (Card, Card)) -> Int {
@@ -478,59 +489,64 @@ class Table : CustomStringConvertible , Hashable {
         return Table.compareHands(hand1: hand1, hand2: hand2)
     }
 
-    private func checkConformity(answers: [Card], guesses: [Card], results: [PokleState]) -> Bool {
-        for i in 0..<answers.count {
-                    if results[i] == .Yellow {
-                        if i < 3 {
-                            if (answers[0].getNumber() != guesses[i].getNumber() 
-                            && answers[0].getSuit() != guesses[i].getSuit()
-                            && answers[1].getNumber() != guesses[i].getNumber()
-                            && answers[1].getSuit() != guesses[i].getSuit()
-                            && answers[2].getNumber() != guesses[i].getNumber()
-                            && answers[2].getSuit() != guesses[i].getSuit())
-                            || answers[0].number == guesses[i].number
-                            || answers[1].number == guesses[i].number
-                            || answers[2].number == guesses[i].number {
-                                return false
-                            }
-                        } else {
-                            if (guesses[i].getNumber() != answers[i].getNumber() 
-                            && guesses[i].getSuit() != answers[i].getSuit())
-                            || guesses[i].number == answers[i].number {
-                                return false
-                            }
-                        }
-                    } else if results[i] == .Green {
-                        if i < 3 {
-                            if answers[0].number != guesses[i].number 
-                            && answers[1].number != guesses[i].number 
-                            && answers[2].number != guesses[i].number {
-                                return false
-                            }
-                        } else {
-                            if guesses[i].number != answers[i].number {
-                                return false
-                            }
-                        }
-                    } else if results[i] == .Gray {
-                        if i < 3 {
-                            if answers[0].getNumber() == guesses[i].getNumber() 
-                            || answers[0].getSuit() == guesses[i].getSuit() 
-                            || answers[1].getNumber() == guesses[i].getNumber() 
-                            || answers[1].getSuit() == guesses[i].getSuit() 
-                            || answers[2].getNumber() == guesses[i].getNumber() 
-                            || answers[2].getSuit() == guesses[i].getSuit() {
-                                return false
-                            }
-                        } else {
-                            if guesses[i].getNumber() == answers[i].getNumber() 
-                            || guesses[i].getSuit() == answers[i].getSuit() {
-                                return false
-                            }
-                        }
+    func checkConformityRange(answers: [Card], guesses: [Card], results: [PokleState], start: Int, end: Int) -> Bool {
+        for i in start..<min(answers.count,end){
+            if results[i] == .Yellow {
+                if i < 3 {
+                    if (answers[0].getNumber() != guesses[i].getNumber() 
+                    && answers[0].getSuit() != guesses[i].getSuit()
+                    && answers[1].getNumber() != guesses[i].getNumber()
+                    && answers[1].getSuit() != guesses[i].getSuit()
+                    && answers[2].getNumber() != guesses[i].getNumber()
+                    && answers[2].getSuit() != guesses[i].getSuit())
+                    || answers[0].number == guesses[i].number
+                    || answers[1].number == guesses[i].number
+                    || answers[2].number == guesses[i].number {
+                        return false
+                    }
+                } else {
+                    if (guesses[i].getNumber() != answers[i].getNumber() 
+                    && guesses[i].getSuit() != answers[i].getSuit())
+                    || guesses[i].number == answers[i].number {
+                        return false
+                    }
+                }
+            } else if results[i] == .Green {
+                if i < 3 {
+                    if answers[0].number != guesses[i].number 
+                    && answers[1].number != guesses[i].number 
+                    && answers[2].number != guesses[i].number {
+                        return false
+                    }
+                } else {
+                    if guesses[i].number != answers[i].number {
+                        return false
+                    }
+                }
+            } else if results[i] == .Gray {
+                if i < 3 {
+                    if answers[0].getNumber() == guesses[i].getNumber() 
+                    || answers[0].getSuit() == guesses[i].getSuit() 
+                    || answers[1].getNumber() == guesses[i].getNumber() 
+                    || answers[1].getSuit() == guesses[i].getSuit() 
+                    || answers[2].getNumber() == guesses[i].getNumber() 
+                    || answers[2].getSuit() == guesses[i].getSuit() {
+                        return false
+                    }
+                } else {
+                    if guesses[i].getNumber() == answers[i].getNumber() 
+                    || guesses[i].getSuit() == answers[i].getSuit() {
+                        return false
+                    }
+                }
             }
         }
         return true
+    }
+
+
+    private func checkConformity(answers: [Card], guesses: [Card], results: [PokleState]) -> Bool {
+        return checkConformityRange(answers: answers, guesses: guesses, results: results, start: 0, end: answers.count)
     }
 
     func conform(guess: Table, result: PokleResult) -> Bool {
@@ -935,9 +951,10 @@ class Pokle : CustomStringConvertible {
                         continue
                     }
 
-                    table3.players = sortedPlayers.map { $1 }
 
-                    addTable(table: table3)
+                    let table4 = Table(board: table3.board, players: sortedPlayers.map { $1 })
+
+                    addTable(table: table4)
                 }
             }
         }
@@ -980,9 +997,9 @@ class Pokle : CustomStringConvertible {
         return Double(total) / Double(tables.count)
     }
 
-    func getOptimalTableOrRandom() -> Table {
+    func getOptimalTable() async -> Table {
         //Computer sum of elimated tables for each result and answer
-        var elimatedTables: [Table: [PokleResult: Int]] = [:]
+        
 
         var flopTable : [[[[Table]]]] = Array(repeating: Array(repeating: Array(repeating: [], count: 52), count: 52), count: 52)
         var uniqueFlops : [Table] = []
@@ -1002,71 +1019,100 @@ class Pokle : CustomStringConvertible {
             }
         }
 
+        let flopTableLet = flopTable
+        let uniqueFlopsLet = uniqueFlops
+
         print("Finished calculating flop table")
         print("Unique Flops: \(uniqueFlops.count)")
 
-        var possibleResults: Set<PokleResult> = []
+        var possibleResultList: [PokleResult] = []
 
         for answer in Progress(tables) {
             for guess in tables {
                 if let result = Table.getPokleResultFromAnswerAndGuess(answer: answer, guess: guess) {            
-                    possibleResults.insert(result)
+                    possibleResultList.append(result)
                 }
             }
         }
+
+        let possibleResults = Set(possibleResultList)
 
         print("Starting to calculate elimation table")
         print("Possible Results: \(possibleResults.count)")
 
-        for index in Progress(0..<uniqueFlops.count){
-            let answerFlop = uniqueFlops[index]
-            for result in possibleResults {
-                if case let .flop(answer_card1, answer_card2, answer_card3) = answerFlop.board {
-                    let answerTables = flopTable[answer_card1.number][answer_card2.number][answer_card3.number]
-                    var counts: [Int] = Array(repeating: 0, count: answerTables.count)
-                    
-                    for guessFlopIdx in 0..<(uniqueFlops.count - index) {
-                        let guessFlop = uniqueFlops[guessFlopIdx]
-                        if case let .flop(guessed_card1, guessed_card2, guessed_card3) = guessFlop.board {
-                            let guessTables = flopTable[guessed_card1.number][guessed_card2.number][guessed_card3.number]
-                            var guessCounts = Array(repeating: 0, count: guessTables.count)
-                            if answerFlop.conform(guess: guessFlop, result: result) {
+        
+        let threads = 5
+        var elimatedTables: [Table: [PokleResult: Int]] = [:]
+        do {
+            elimatedTables = try await withThrowingTaskGroup(of: [Table: [PokleResult: Int]].self, returning: [Table: [PokleResult: Int]].self) { group -> [Table: [PokleResult: Int]] in
+                let uniqueFlopsList = uniqueFlopsLet.chunked(into: threads)
+                for subUniqueFlops in uniqueFlopsList {
+                    group.addTask {
+                        var elimatedTables: [Table: [PokleResult: Int]] = [:]
+                        for answerFlop in subUniqueFlops{
+                            if case let .flop(answer_card1, answer_card2, answer_card3) = answerFlop.board {
 
-                                for (index, answer) in answerTables.enumerated() {
-                                    for (guessIndex, guess) in guessTables.enumerated() {
-                                        if !answer.conform(guess: guess, result: result) {
-                                            counts[index] += 1
-                                        }
+                            let answerTables = flopTableLet[answer_card1.number][answer_card2.number][answer_card3.number]
+                            var counts: [Int] = Array(repeating: 0, count: answerTables.count)
 
-                                        if !guess.conform(guess: answer, result: result) {
-                                            guessCounts[guessIndex] += 1
+                            for result in possibleResults {      
+                                let resultArray = [result.result.0, result.result.1, result.result.2, result.result.3, result.result.4]
+                                
+                                for guessFlop in uniqueFlopsLet {
+                                    if case let .flop(guessed_card1, guessed_card2, guessed_card3) = guessFlop.board {
+                                        let guessTables = flopTableLet[guessed_card1.number][guessed_card2.number][guessed_card3.number]
+                                        
+                                        if answerFlop.conform(guess: guessFlop, result: result) {
+                                            for (index, answer) in answerTables.enumerated() {
+                                                if case let .river(_, _, _, answer_card4, answer_card5) = answer.board {
+                                                    for guess in guessTables {
+
+                                                        if case let .river(_, _, _, guessed_card4, guessed_card5) = guess.board {
+                                                            if !answer.checkConformityRange(answers: [answer_card1, answer_card2, answer_card3, answer_card4, answer_card5], guesses: [guessed_card1, guessed_card2, guessed_card3, guessed_card4, guessed_card5], results: resultArray, start: 3, end: 5) {
+                                                                counts[index] += 1
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }else{
+                                            for (index, _) in answerTables.enumerated() {
+                                                counts[index] += guessTables.count
+                                            }
                                         }
                                     }
                                 }
-                            }else{
-                                for (index, _) in answerTables.enumerated() {
-                                    counts[index] += guessTables.count
+                                for (index, count) in counts.enumerated() {
+                                    var dictOfResults = elimatedTables[answerTables[index]] ?? [:]
+                                    dictOfResults[result] = count
+                                    elimatedTables[answerTables[index]] = dictOfResults
+                                    counts[index] = 0
+                                    }                   
                                 }
-
-                                for (index, _) in guessTables.enumerated() {
-                                    guessCounts[index] += answerTables.count
-                                }
-                            }
-
-                            for (index, guessTable) in guessTables.enumerated() {
-
-                                let guessResult = (elimatedTables[guessTable] ?? [result : 0])[result] ?? 0
-                                elimatedTables[guessTable] = [result: guessResult + guessCounts[index]]
                             }
                         }
+                        return elimatedTables
                     }
-
-                    for (index, count) in counts.enumerated() {
-                        elimatedTables[answerTables[index]] = [result: count]
-                    }                   
                 }
+
+                var returnElimatedTables: [Table: [PokleResult: Int]] = [:]
+
+                    for try await elimatedTables in group {
+                        for (table, results) in elimatedTables {
+                            var dictOfResults = elimatedTables[table] ?? [:]
+                            for (result, count) in results {
+                                dictOfResults[result] = count
+                            }
+                            returnElimatedTables[table] = dictOfResults
+                        }
+                    }
+                return returnElimatedTables
             }
+        } catch {
+            print("Error: \(error)")
+            return Table(board: .preFlop)
         }
+
 
         print("Finished calculating elimation table")
 
@@ -1403,20 +1449,41 @@ func parseInputFile(filePath: String) -> ([(Card, Card)], Trophies)? {
 
 print("Welcome to the Pokle Solver")
 
-// Check for input file flag
-var players: [(Card, Card)] = []
-var trophies: Trophies = Trophies(trophies: ((0, 1, 2), (0, 1, 2), (0, 1, 2)))
-var useInputFile = false
+// Create and run the async task
+let task = Task {
+    // Check for input file flag
+    var players: [(Card, Card)] = []
+    var trophies: Trophies = Trophies(trophies: ((0, 1, 2), (0, 1, 2), (0, 1, 2)))
+    var useInputFile = false
 
-let args = CommandLine.arguments
-if args.count > 1 && args[1] == "--input" && args.count > 2 {
-    if let (parsedPlayers, parsedTrophies) = parseInputFile(filePath: args[2]) {
-        players = parsedPlayers
-        trophies = parsedTrophies
-        useInputFile = true
+    let args = CommandLine.arguments
+    if args.count > 1 && args[1] == "--input" && args.count > 2 {
+        if let (parsedPlayers, parsedTrophies) = parseInputFile(filePath: args[2]) {
+            players = parsedPlayers
+            trophies = parsedTrophies
+            useInputFile = true
+            
+            // Display the input for confirmation
+            print("\nLoaded from file \(args[2]):")
+            for i in 0..<players.count {
+                print("Player \(i+1): \(players[i].0) \(players[i].1)")
+            }
+            
+            print("\nRankings:")
+            let stateNames = ["Flop", "Turn", "River"]
+            print("\(stateNames[0]): \(trophies.trophies.0.0) \(trophies.trophies.0.1) \(trophies.trophies.0.2)")
+            print("\(stateNames[1]): \(trophies.trophies.1.0) \(trophies.trophies.1.1) \(trophies.trophies.1.2)")
+            print("\(stateNames[2]): \(trophies.trophies.2.0) \(trophies.trophies.2.1) \(trophies.trophies.2.2)")
+        }
+    }
+
+    // If not using input file, get inputs from command line
+    if !useInputFile {
+        players = parseHandsFromCommandLine()
+        trophies = parseRankingsFromCommandLine()
         
         // Display the input for confirmation
-        print("\nLoaded from file \(args[2]):")
+        print("\nYou entered:")
         for i in 0..<players.count {
             print("Player \(i+1): \(players[i].0) \(players[i].1)")
         }
@@ -1427,49 +1494,34 @@ if args.count > 1 && args[1] == "--input" && args.count > 2 {
         print("\(stateNames[1]): \(trophies.trophies.1.0) \(trophies.trophies.1.1) \(trophies.trophies.1.2)")
         print("\(stateNames[2]): \(trophies.trophies.2.0) \(trophies.trophies.2.1) \(trophies.trophies.2.2)")
     }
-}
 
-// If not using input file, get inputs from command line
-if !useInputFile {
-    players = parseHandsFromCommandLine()
-    trophies = parseRankingsFromCommandLine()
-    
-    // Display the input for confirmation
-    print("\nYou entered:")
-    for i in 0..<players.count {
-        print("Player \(i+1): \(players[i].0) \(players[i].1)")
-    }
-    
-    print("\nRankings:")
-    let stateNames = ["Flop", "Turn", "River"]
-    print("\(stateNames[0]): \(trophies.trophies.0.0) \(trophies.trophies.0.1) \(trophies.trophies.0.2)")
-    print("\(stateNames[1]): \(trophies.trophies.1.0) \(trophies.trophies.1.1) \(trophies.trophies.1.2)")
-    print("\(stateNames[2]): \(trophies.trophies.2.0) \(trophies.trophies.2.1) \(trophies.trophies.2.2)")
-}
+    let pokle = Pokle(player1: players[0], player2: players[1], player3: players[2], trophies: trophies) 
 
-let pokle = Pokle(player1: players[0], player2: players[1], player3: players[2], trophies: trophies) 
+    pokle.saveTablesToFile()
 
-pokle.saveTablesToFile()
-
-// Parse a table from the command line
-for i in 0..<5 {
-    let optimalTable = pokle.getOptimalTableOrRandom()
-    print("Guess \(i+1), Optimal Table is \(optimalTable.board)")
-    print("Give me your result from pokle")
-    let result = parsePokleResultFromCommandLine()
-    print("Entered Result: \(result)")
-    if result == PokleResult(result: (.Green, .Green, .Green, .Green, .Green)) {
-        print("You win!")
-        break
-    }
-    pokle.elimateTables(guess: optimalTable, result: result)
-    print("Possibilities Remaining: \(pokle.tables.count)")
-    if pokle.tables.count == 0 {
-        print("We lose! or invalid input!")
-        break
+    // Parse a table from the command line
+    for i in 0..<5 {
+        let optimalTable = await pokle.getOptimalTable()
+        print("Guess \(i+1), Optimal Table is \(optimalTable)")
+        print("Give me your result from pokle")
+        let result = parsePokleResultFromCommandLine()
+        print("Entered Result: \(result)")
+        if result == PokleResult(result: (.Green, .Green, .Green, .Green, .Green)) {
+            print("You win!")
+            break
+        }
+        let table = Table(board: optimalTable.board)
+        pokle.elimateTables(guess: table, result: result)
+        print("Possibilities Remaining: \(pokle.tables.count)")
+        if pokle.tables.count == 0 {
+            print("We lose! or invalid input!")
+            break
+        }
     }
 }
 
+// Wait for the task to complete
+RunLoop.main.run(until: Date(timeIntervalSinceNow: 3600)) // Run for up to 1 hour
 
 
 
