@@ -10,7 +10,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-algorithms", from: "1.2.0"),
-        .package(url: "https://github.com/theRealMkrolak/Progress.swift", from: "0.1.0"),
+        .package(url: "https://github.com/theRealMkrolak/Progress.swift", from: "0.2.4"),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.5.0"),
     ],
     targets: [

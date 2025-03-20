@@ -1,13 +1,13 @@
 {
-  "originHash" : "416da05c9fefc5c9dcaabef6aa543b3d83cfe07be23b47666fee6284ddf83c15",
+  "originHash" : "2ed7d23fcdd315848bb6dda0266011f4ba4ed0f23363098a0efe96bd009794b6",
   "pins" : [
     {
       "identity" : "progress.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/theRealMkrolak/Progress.swift",
       "state" : {
-        "revision" : "6cf4ca40b7bb8be55aca16a249167849c19f74cd",
-        "version" : "0.1.0"
+        "revision" : "f66dba968dab1b2b871ceee917cd6a030b8a3808",
+        "version" : "0.2.5"
       }
     },
     {

@@ -4,9 +4,47 @@ import Progress
 
 extension Array {
     func chunked(into size: Int) -> [[Element]] {
-        return stride(from: 0, to: count, by: size).map {
-            Array(self[$0..<Swift.min($0 + size, count)])
+        var chunks: [[Element]] = [[Element]](repeating: [Element](), count: size)
+        var arr = self[0..<self.count]
+        while !arr.isEmpty {
+            for i in 0..<size {
+                if let element = arr.last {
+                    chunks[i].append(element)
+                    arr = arr[0..<arr.count - 1]
+                }
+            }
         }
+        return chunks
+    }
+}
+
+struct ProgressBarTerminalPrinter: ProgressBarPrinter {
+    var lastPrintedTime = 0.0
+
+    init() {
+        // the cursor is moved up before printing the progress bar.
+        // have to move the cursor down one line initially.
+        print("")
+    }
+
+    mutating func display(_ progressBar: ProgressBar) {
+        let currentTime = getTimeOfDay()
+        if currentTime - lastPrintedTime > 0.1 || progressBar.index == progressBar.count {
+            print("\u{1B}[1A\u{1B}[K\(progressBar.value)")
+            lastPrintedTime = currentTime
+        }
+    }
+}
+
+struct SendableProgressGroup<G: Sequence>: @unchecked Sendable {
+    var progressGroup: ProgressGroup<G>
+
+    init(progress: ProgressGroup<G>) {
+        self.progressGroup = progress
+    }
+
+    public func getProgressGroup() -> ProgressGroup<G> {
+        return self.progressGroup
     }
 }
 
@@ -334,23 +372,12 @@ class Pokle: CustomStringConvertible {
             elimatedTables = try await withThrowingTaskGroup(
                 of: [Table: [PokleResult: Int]].self, returning: [Table: [PokleResult: Int]].self
             ) { group -> [Table: [PokleResult: Int]] in
+
                 let uniqueFlopsList = uniqueFlopsLet.chunked(into: threads)
-                for (index, subUniqueFlops) in uniqueFlopsList.enumerated() {
+                for subUniqueFlops in uniqueFlopsList {
                     group.addTask {
-                        var seq: any Sequence<Table> = subUniqueFlops
-                        if verbose {
-                            seq = Progress(
-                                subUniqueFlops,
-                                configuration: [
-                                    ProgressPercent(), ProgressBarLine(barLength: 70),
-                                    ProgressTimeEstimates(),
-                                    ProgressStringWithUpdate {
-                                        "Thread: \(index)"
-                                    },
-                                ])
-                        }
                         var elimatedTables: [Table: [PokleResult: Int]] = [:]
-                        for answerFlop in seq {
+                        for answerFlop in subUniqueFlops {
                             if case let .flop(answer_card1, answer_card2, answer_card3) = answerFlop
                                 .board
                             {
@@ -422,15 +449,28 @@ class Pokle: CustomStringConvertible {
                                         counts[index] = 0
                                     }
                                 }
+
                             }
                         }
+
                         return elimatedTables
                     }
                 }
 
                 var returnElimatedTables: [Table: [PokleResult: Int]] = [:]
-
+                var printer = ProgressBarTerminalPrinter()
+                var bar = ProgressBar(
+                    count: threads,
+                    configuration: [
+                        ProgressPercent(), ProgressBarLine(barLength: 70),
+                        ProgressTimeEstimates(),
+                    ], printer: printer)
                 for try await elimatedTables in group {
+                    if verbose {
+                        bar.next()
+                        printer.display(bar)
+                    }
+
                     for (table, results) in elimatedTables {
                         var dictOfResults = elimatedTables[table] ?? [:]
                         for (result, count) in results {
@@ -439,6 +479,7 @@ class Pokle: CustomStringConvertible {
                         returnElimatedTables[table] = dictOfResults
                     }
                 }
+
                 return returnElimatedTables
             }
         } catch {
