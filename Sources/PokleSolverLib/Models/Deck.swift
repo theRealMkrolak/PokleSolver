@@ -1,6 +1,6 @@
 import Foundation
 
-class Deck {
+public class Deck {
     var cards: [Card]
 
     init(numCards: Int) {

@@ -1,11 +1,11 @@
-struct Card: CustomStringConvertible, Sendable {
+public struct Card: CustomStringConvertible, Sendable {
     let number: Int
 
     init(number: Int) {
         self.number = number
     }
 
-    var description: String {
+    public var description: String {
         let cardNum = getNumber()
         let suits = ["♠", "♥", "♦", "♣"]
         let suit = suits[getSuit()]
@@ -22,7 +22,7 @@ struct Card: CustomStringConvertible, Sendable {
         }
     }
 
-    static func fromString(string: String) -> Card {
+    public static func fromString(string: String) -> Card {
         let suits = ["♠", "♥", "♦", "♣"]
         let suitsChar = ["s", "h", "d", "c"]
         var suit: Int
@@ -62,7 +62,7 @@ struct Card: CustomStringConvertible, Sendable {
         return Card(number: cardValue + (suit * 13))
     }
 
-    static func getPokleStateFromAnswerAndGuess(answer: Card, guess: Card) -> PokleState {
+    public static func getPokleStateFromAnswerAndGuess(answer: Card, guess: Card) -> PokleState {
         if answer.number == guess.number {
             return .Green
         }
@@ -78,7 +78,7 @@ struct Card: CustomStringConvertible, Sendable {
         return .Gray
     }
 
-    func getNumber() -> Int {
+    public func getNumber() -> Int {
         let temp = number % 13
         if temp == 0 {
             return 13
@@ -86,11 +86,11 @@ struct Card: CustomStringConvertible, Sendable {
         return temp
     }
 
-    func getSuit() -> Int {
+    public func getSuit() -> Int {
         return number / 13
     }
 
-    static func compare(card1: Card, card2: Card) -> Bool {
+    public static func compare(card1: Card, card2: Card) -> Bool {
         return card1.getNumber() == card2.getNumber()
     }
 }

@@ -1,7 +1,7 @@
 import Algorithms
 import ArgumentParser
 import Foundation
-
+import PokleSolverLib
 
 struct Options: ParsableArguments {
     @Flag(help: "Enable verbose output")
@@ -83,6 +83,7 @@ struct Daily: AsyncParsableCommand {
 
         if options.verbose {
             print(output)
+            print(pokle.description)
         }
 
         print("#Pokle #\(pokleNumber)")
@@ -144,6 +145,7 @@ struct Solve: AsyncParsableCommand {
             print("Possibilities Remaining: \(pokle.tables.count)")
             if pokle.tables.count == 0 {
                 print("We lose! or invalid input!")
+                print(optimalTable.description)
                 break
             }
         }

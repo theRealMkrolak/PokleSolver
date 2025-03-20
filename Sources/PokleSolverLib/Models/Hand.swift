@@ -1,7 +1,7 @@
 import Algorithms
 import Foundation
 
-enum HandType {
+public enum HandType {
     case highCard
     case onePair
     case twoPair
@@ -59,18 +59,18 @@ enum HandType {
     }
 }
 
-class Hand: CustomStringConvertible {
+public class Hand: CustomStringConvertible {
     let hand: (Card, Card)
     let board: GameState
 
-    var handType: HandType? = nil
+    public var handType: HandType? = nil
     var pairs: [Card] = []
     var three_of_a_kinds: [Card] = []
     var four_of_a_kinds: [Card] = []
     var straights: Card? = nil
     var flushes: Card? = nil
 
-    init(hand: (Card, Card), board: GameState) {
+    public init(hand: (Card, Card), board: GameState) {
         self.hand = hand
         self.board = board
         self.handType = getHandType()
@@ -260,7 +260,7 @@ class Hand: CustomStringConvertible {
             < hand2_sorted_by_face[hand2_sorted_by_face.count - 1].getNumber() ? 1 : -1
     }
 
-    static func compareHands(hand1: Hand, hand2: Hand) -> Int {
+    public static func compareHands(hand1: Hand, hand2: Hand) -> Int {
         if hand1.getHandType() != hand2.getHandType() {
             return HandType.compare(hand1.getHandType(), hand2.getHandType())
         }
@@ -472,7 +472,7 @@ class Hand: CustomStringConvertible {
         return 0
     }
 
-    var description: String {
+    public var description: String {
         var description = ""
         switch board {
         case .preFlop:

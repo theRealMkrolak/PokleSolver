@@ -1,6 +1,7 @@
 import Algorithms
 import ArgumentParser
 import Foundation
+import PokleSolverLib
 
 //Structure of input json
 struct DailyInput: Decodable {

@@ -1,7 +1,7 @@
-class Trophies: CustomStringConvertible {
+public class Trophies: CustomStringConvertible {
     var trophies: ((Int, Int, Int), (Int, Int, Int), (Int, Int, Int))
 
-    init(trophies: ((Int, Int, Int), (Int, Int, Int), (Int, Int, Int))) {
+    public init(trophies: ((Int, Int, Int), (Int, Int, Int), (Int, Int, Int))) {
         self.trophies = trophies
     }
 
@@ -15,7 +15,7 @@ class Trophies: CustomStringConvertible {
         }
     }
 
-    var description: String {
+    public var description: String {
         let firstRow =
             "\(intToString(nat: trophies.0.0)),\(intToString(nat: trophies.0.1)),\(intToString(nat: trophies.0.2))"
         let secondRow =

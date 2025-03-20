@@ -4,9 +4,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "pokleSolver",
+    name: "PokleSolver",
     platforms: [
-        .macOS("14.0")
+        .macOS("15.0")
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-algorithms", from: "1.2.0"),
@@ -16,13 +16,26 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .executableTarget(
-            name: "pokleSolver",
+        .target(
+            name: "PokleSolverLib",
             dependencies: [
                 .product(name: "Algorithms", package: "swift-algorithms"),
                 .product(name: "Progress", package: "Progress.swift"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ]
-        )
+        ),
+        .executableTarget(
+            name: "PokleSolver",
+            dependencies: [
+                .product(name: "Algorithms", package: "swift-algorithms"),
+                .product(name: "Progress", package: "Progress.swift"),
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                "PokleSolverLib"
+            ]
+        ),
+
+        .testTarget(
+            name: "PokleSolverTests",
+            dependencies: ["PokleSolverLib"]),
     ]
 )

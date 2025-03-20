@@ -36,24 +36,12 @@ struct ProgressBarTerminalPrinter: ProgressBarPrinter {
     }
 }
 
-struct SendableProgressGroup<G: Sequence>: @unchecked Sendable {
-    var progressGroup: ProgressGroup<G>
-
-    init(progress: ProgressGroup<G>) {
-        self.progressGroup = progress
-    }
-
-    public func getProgressGroup() -> ProgressGroup<G> {
-        return self.progressGroup
-    }
-}
-
-enum PokleState: CustomStringConvertible, Sendable {
+public enum PokleState: CustomStringConvertible, Sendable {
     case Yellow
     case Gray
     case Green
 
-    var description: String {
+    public var description: String {
         switch self {
         case .Yellow:
             return "🟨"
@@ -64,7 +52,7 @@ enum PokleState: CustomStringConvertible, Sendable {
         }
     }
 
-    static func fromString(string: String) -> PokleState {
+    public static func fromString(string: String) -> PokleState {
         switch string {
         case "🟨":
             return .Yellow
@@ -84,14 +72,18 @@ enum PokleState: CustomStringConvertible, Sendable {
     }
 }
 
-struct PokleResult: CustomStringConvertible, Hashable {
-    var result: (PokleState, PokleState, PokleState, PokleState, PokleState)
+public final class PokleResult: CustomStringConvertible, Hashable, Sendable {
+    public let result: (PokleState, PokleState, PokleState, PokleState, PokleState)
 
-    var description: String {
+    public init(result: (PokleState, PokleState, PokleState, PokleState, PokleState)) {
+        self.result = result
+    }
+
+    public var description: String {
         return "\(result.0)\(result.1)\(result.2)\(result.3)\(result.4)"
     }
 
-    static func fromString(string: String) -> PokleResult {
+    public static func fromString(string: String) -> PokleResult {
         return PokleResult(
             result: (
                 PokleState.fromString(string: String(string[string.startIndex])),
@@ -121,25 +113,25 @@ struct PokleResult: CustomStringConvertible, Hashable {
         return result
     }
 
-    func hash(into hasher: inout Hasher) {
+    public func hash(into hasher: inout Hasher) {
         hasher.combine(toInt())
     }
 
-    static func == (lhs: PokleResult, rhs: PokleResult) -> Bool {
+    public static func == (lhs: PokleResult, rhs: PokleResult) -> Bool {
         return lhs.toInt() == rhs.toInt()
     }
 }
 
-class Pokle: CustomStringConvertible {
-    var player1: (Card, Card)
-    var player2: (Card, Card)
-    var player3: (Card, Card)
-    var tables: [Table]
-    var trophies: Trophies
+public class Pokle: CustomStringConvertible {
+    public var player1: (Card, Card)
+    public var player2: (Card, Card)
+    public var player3: (Card, Card)
+    public var tables: [Table]
+    public var trophies: Trophies
     var history: [(Table, PokleResult)]
     var verbose: Bool
 
-    init(
+    public init(
         player1: (Card, Card), player2: (Card, Card), player3: (Card, Card), trophies: Trophies,
         verbose: Bool = false
     ) {
@@ -280,7 +272,7 @@ class Pokle: CustomStringConvertible {
         }
     }
 
-    func elimateTables(guess: Table, result: PokleResult) {
+    public func elimateTables(guess: Table, result: PokleResult) {
         history.append((guess, result))
         var newTables: [Table] = []
 
@@ -293,7 +285,7 @@ class Pokle: CustomStringConvertible {
         tables = newTables
     }
 
-    func getElimatedTables(answer: Table, guess: Table) -> Int {
+    public func getElimatedTables(answer: Table, guess: Table) -> Int {
         let result: PokleResult =
             Table.getPokleResultFromAnswerAndGuess(answer: answer, guess: guess)
             ?? PokleResult(result: (.Gray, .Gray, .Gray, .Gray, .Gray))
@@ -308,7 +300,7 @@ class Pokle: CustomStringConvertible {
         return count
     }
 
-    func getAverageElimatedTables(guess: Table) -> Double {
+    public func getAverageElimatedTables(guess: Table) -> Double {
         var total = 0
 
         for table in tables {
@@ -318,7 +310,7 @@ class Pokle: CustomStringConvertible {
         return Double(total) / Double(tables.count)
     }
 
-    func getOptimalTable() async -> Table {
+    public func getOptimalTable() async -> Table {
 
         var flopTable: [[[[Table]]]] = Array(
             repeating: Array(repeating: Array(repeating: [], count: 52), count: 52), count: 52)
@@ -349,8 +341,9 @@ class Pokle: CustomStringConvertible {
         var possibleResultList: [PokleResult] = []
 
         tableSequence = tables
-        print("Creating Possible Results List...")
+
         if verbose {
+            print("Creating Possible Results List...")
             tableSequence = Progress(tables)
         }
 
@@ -458,17 +451,22 @@ class Pokle: CustomStringConvertible {
                 }
 
                 var returnElimatedTables: [Table: [PokleResult: Int]] = [:]
-                var printer = ProgressBarTerminalPrinter()
-                var bar = ProgressBar(
-                    count: threads,
-                    configuration: [
-                        ProgressPercent(), ProgressBarLine(barLength: 70),
-                        ProgressTimeEstimates(),
-                    ], printer: printer)
+
+                var printer: ProgressBarPrinter? = nil
+                var bar: ProgressBar? = nil
+                if verbose {
+                    printer = ProgressBarTerminalPrinter()
+                    bar = ProgressBar(
+                        count: threads,
+                        configuration: [
+                            ProgressPercent(), ProgressBarLine(barLength: 70),
+                            ProgressTimeEstimates(),
+                        ], printer: printer)
+                }
                 for try await elimatedTables in group {
-                    if verbose {
-                        bar.next()
-                        printer.display(bar)
+                    if var bars = bar, var printers = printer {
+                        bars.next()
+                        printers.display(bars)
                     }
 
                     for (table, results) in elimatedTables {
@@ -508,11 +506,11 @@ class Pokle: CustomStringConvertible {
         return optimalTable
     }
 
-    func addTable(table: Table) {
+    public func addTable(table: Table) {
         tables.append(table)
     }
 
-    func saveTablesToFile() {
+    public func saveTablesToFile() {
         // Create a dictionary representation of the Pokle state
         var pokleData: [String: Any] = [:]
 
@@ -572,7 +570,7 @@ class Pokle: CustomStringConvertible {
         }
     }
 
-    static func createFromFile(filePath: String = "pokle_state.json") -> Pokle? {
+    public static func createFromFile(filePath: String = "pokle_state.json") -> Pokle? {
         let fileURL = URL(fileURLWithPath: filePath)
 
         do {
@@ -690,7 +688,7 @@ class Pokle: CustomStringConvertible {
         }
     }
 
-    var description: String {
+    public var description: String {
         return
             "Player 1: \(player1) \n Player 2: \(player2) \n Player 3: \(player3) \n Trophies: \(trophies) \n Possiblities Remaining: \(tables.count)"
     }

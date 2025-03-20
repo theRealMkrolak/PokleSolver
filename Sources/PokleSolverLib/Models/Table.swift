@@ -1,4 +1,4 @@
-enum GameState: Sendable {
+public enum GameState: Sendable {
     case preFlop
     case flop(Card, Card, Card)
     case turn(Card, Card, Card, Card)
@@ -53,11 +53,11 @@ enum GameState: Sendable {
     }
 }
 
-struct Table: CustomStringConvertible, Hashable, Sendable {
-    let board: GameState
-    let players: [(Card, Card)]
+public struct Table: CustomStringConvertible, Hashable, Sendable {
+    public let board: GameState
+    public let players: [(Card, Card)]
 
-    init(board: GameState, players: [(Card, Card)] = []) {
+    public init(board: GameState, players: [(Card, Card)] = []) {
         self.board = board
         self.players = players
     }
@@ -180,7 +180,8 @@ struct Table: CustomStringConvertible, Hashable, Sendable {
         }
     }
 
-    static func getPokleResultFromAnswerAndGuess(answer: Table, guess: Table) -> PokleResult? {
+    public static func getPokleResultFromAnswerAndGuess(answer: Table, guess: Table) -> PokleResult?
+    {
         switch (answer.board, guess.board) {
         case (
             .river(
@@ -264,7 +265,7 @@ struct Table: CustomStringConvertible, Hashable, Sendable {
         }
     }
 
-    var description: String {
+    public var description: String {
         var description = board.description
         description += "\n \(players)"
         return description
@@ -306,11 +307,11 @@ struct Table: CustomStringConvertible, Hashable, Sendable {
         return num
     }
 
-    func hash(into hasher: inout Hasher) {
+    public func hash(into hasher: inout Hasher) {
         hasher.combine(toUniqueInt())
     }
 
-    static func == (lhs: Table, rhs: Table) -> Bool {
+    public static func == (lhs: Table, rhs: Table) -> Bool {
         return lhs.toUniqueInt() == rhs.toUniqueInt()
     }
 }
