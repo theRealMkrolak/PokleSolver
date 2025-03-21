@@ -10,7 +10,6 @@ struct DailyInput: Decodable {
     let trophies: String
 }
 
-// Add this function to parse command line arguments for hands
 func parseHandsFromCommandLine() -> [(Card, Card)] {
     print("Enter three poker hands (format: 'A♠ K♥ 2♦ 6♣' for each hand):")
     var hands: [(Card, Card)] = []
@@ -35,7 +34,6 @@ func parseHandsFromCommandLine() -> [(Card, Card)] {
     return hands
 }
 
-// Add this function to parse rankings for each game state
 func parseRankingsFromCommandLine() -> Trophies {
     print(
         "\nEnter rankings for each game state (format: 'G,S,B' where letters represent trophy material):"
@@ -93,7 +91,6 @@ func parseTableFromCommandLine() -> Table {
     return Table(board: .preFlop)
 }
 
-// Add this function to parse a PokleResult from the command line
 func parsePokleResultFromCommandLine() -> PokleResult {
     print("Enter a PokleResult Emoji or Y/G/B (example: 🟨🟨🟩🟩⬜ or YYGGB)")
     if let input = readLine() {
@@ -108,7 +105,6 @@ func parseHand(hand: String) -> (Card, Card) {
     return (card1, card2)
 }
 
-// Add this function to parse command line arguments for input file
 func parseInputFile(filePath: String) -> ([(Card, Card)], Trophies)? {
     do {
         let fileContents = try String(contentsOfFile: filePath, encoding: .utf8)

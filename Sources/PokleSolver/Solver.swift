@@ -84,6 +84,7 @@ struct Daily: AsyncParsableCommand {
         if options.verbose {
             print(output)
             print(pokle.description)
+            print(solution)
         }
 
         print("#Pokle #\(pokleNumber)")

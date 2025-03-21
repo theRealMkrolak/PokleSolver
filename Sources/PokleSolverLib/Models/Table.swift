@@ -221,7 +221,7 @@ public struct Table: CustomStringConvertible, Hashable, Sendable {
             {
                 spot2 = .Green
             } else if Card.getPokleStateFromAnswerAndGuess(
-                answer: possible_card2, guess: guessed_card1) == .Yellow
+                answer: possible_card2, guess: guessed_card2) == .Yellow
                 || Card.getPokleStateFromAnswerAndGuess(
                     answer: possible_card1, guess: guessed_card2) == .Yellow
                 || Card.getPokleStateFromAnswerAndGuess(
