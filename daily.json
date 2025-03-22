@@ -1,0 +1,5697 @@
+[
+  {
+    "solution": "qs 10s as 6c 6d",
+    "hands": "kc js jc jh 10h 6s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6h jd 5c 4s 8d",
+    "hands": "4h 4d kc jh 7h jc",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3s 5d 9h qc 10s",
+    "hands": "5h 10c 3d qh 6h 9d",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "2h 9d ks 2c 10s",
+    "hands": "2d 4d qd kc jc qs",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "7h 2s 3h ah 4s",
+    "hands": "10c ac 2h 4h 5s 7c",
+    "trophies": "3 2 1 2 1 3 3 1 2"
+  },
+  {
+    "solution": "qs 6d 9s 7d 10c",
+    "hands": "5s 8s qc 6c kh jc",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "7d 2s 5h 5c 2c",
+    "hands": "5d 8s 2d 7c 9s 9d",
+    "trophies": "3 1 2 1 3 2 1 2 3"
+  },
+  {
+    "solution": "4d 6h 7s 4h 4c",
+    "hands": "8c 5c 7d 4s 6s js",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "8h 2s 4s 3s 6s",
+    "hands": "3h 3d 10c 5d 8c 7s",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "8c 7h 6d 4c 8d",
+    "hands": "8s 8h 2c 7d 5s kh",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "5c 6s jh 2s 4h",
+    "hands": "2c 5h as jc 3h 3s",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "ad 2h qd 2c 10d",
+    "hands": "2d 8h kd jd 5h ac",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 6d 7s 4h 10h",
+    "hands": "10d 10c 6h 8d 5c js",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "8c 10c 3h 7c 6c",
+    "hands": "kd 9h 3c 2c 9c 6s",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8d 4c 7d 4h 8c",
+    "hands": "10d 4s 6h 8h ks 7h",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4c 4h 6d 6h 4s",
+    "hands": "4d 5s 6s 7c 9d 10s",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "qh 6d 4c jc 4d",
+    "hands": "qc jd 4s jh 6s 8s",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6h 3d 7h 3h 4h",
+    "hands": "5c jd 3s kh 6c 10d",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5s 8h 7h 5h jc",
+    "hands": "8d 5c 8s 7s 9d jd",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "9h 7h 5h 6c 8h",
+    "hands": "ks 6h jc 9d 4h 5c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "5s 7s qs qd 5h",
+    "hands": "3h qh 7d 5c as 9s",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "3c as jc 2d 6h",
+    "hands": "6c 6d 3h jh ad 2c",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "7d 9s 5d jc 8h",
+    "hands": "js jd 9d 7s 2d 6s",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "qh 2c qc 2s 2d",
+    "hands": "3c qd jh 2h 9h 9c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "jc 10h 8h 9h qh",
+    "hands": "qs 6c jh 10s 2h kh",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "jd 9h qs jc kh",
+    "hands": "jh ah kc 9d 5c qc",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "qs ah 4d 4h qd",
+    "hands": "7c 9s ac qh 8s 4s",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "3d 5d kd 4d 2d",
+    "hands": "kc ad 6h 6d 3s 3h",
+    "trophies": "2 3 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6d 5c 6c 8c 6s",
+    "hands": "2s 7h 6h 3h 7d 9c",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "2h 6s 3h 4h 5s",
+    "hands": "jh ah 7c 10d 5c 4s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5d 5s 6c 8c 2d",
+    "hands": "2c 5h 9c 8s 7h 9s",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "2c 2s as 5s 4s",
+    "hands": "3d 3c 2h jd 3s 5h",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "5h 7d 8s 10s jc",
+    "hands": "10c qs 5d 3d 4h 9c",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "8c 7d 9c 7s 6c",
+    "hands": "9h 8d 3s 5c jc 7c",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "qc 10c 9c 4h 8c",
+    "hands": "4s jc ac 5s jd kc",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "2c 5c 4d jd 3h",
+    "hands": "js 6d jh ad 2s 6s",
+    "trophies": "3 2 1 2 1 3 1 2 1"
+  },
+  {
+    "solution": "qd 4d 10d qh qs",
+    "hands": "5d 2d ac qc 10h 4c",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "5c 4h ad 2h 5d",
+    "hands": "kd 3s 5s 4d 8h 4c",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6d 10h 6h kc 10c",
+    "hands": "10s 5c 2s 6s 5s kh",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "4c 8c 7h qc 9c",
+    "hands": "7s 8s 2c qs 9d 4d",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "10c 7s 10s 9s 8s",
+    "hands": "10h 3c 6s 8c 7h 6h",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "8h jd 7s js jc",
+    "hands": "10d 9s ks jh 7d 8s",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "9s jh 4c 8c 4d",
+    "hands": "9h kh 9c 4h 8s js",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5d 7d 9d 6s 8d",
+    "hands": "ac 6d 8s 10s 4d kd",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "jh jd 9d ac jc",
+    "hands": "9c js 7h 8s ad ah",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "kd 6s qc ad jd",
+    "hands": "kh kc 10s ac 6d 10d",
+    "trophies": "1 3 2 1 2 3 3 2 1"
+  },
+  {
+    "solution": "8c 2s 5c 3c 8h",
+    "hands": "7d 2c 3d 5h 8s 7s",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "6d qd 7d 7h 7c",
+    "hands": "7s qh 2d 4d 10s 6s",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "jd 2s 8c jc qc",
+    "hands": "2c 8s 9c 10c ks jh",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9c 10c qh jc 9s",
+    "hands": "9d 10s as ad 8s kc",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7s 2d 9c 10c 8s",
+    "hands": "5d 10h 3s 2h 6s 7h",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8s jc ac 10c 7c",
+    "hands": "jd ah 8c 10d 9h 9d",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "qd 8h 9h jh qh",
+    "hands": "jd 8d ah qc 10h 10d",
+    "trophies": "3 1 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5h 2d ad 2c 6c",
+    "hands": "5s kh 2s 6s 4d 3s",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "jh 9h qh 5c 5d",
+    "hands": "5h 5s qc 3c js 9c",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "as 4s 5s 5h 6s",
+    "hands": "kd ks 3h 2d 2s 5d",
+    "trophies": "2 1 3 3 1 2 1 3 2"
+  },
+  {
+    "solution": "4c 10s 9h qh as",
+    "hands": "qc qs 4d 9d ac 10c",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "qs 7c 7s qc ac",
+    "hands": "qd ad 10h 7d 4c qh",
+    "trophies": "2 1 3 1 2 1 1 3 2"
+  },
+  {
+    "solution": "4c 5h 6s 4d 4h",
+    "hands": "as 5d 7h 8s 9c 4s",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "2h 5h 7c 4h 6s",
+    "hands": "7h ah 2d 5s 3c 3h",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "2s 4s 2c 6s 3s",
+    "hands": "6c 2h 2d 9c 5s kd",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "jd 8d 9c 7c 9s",
+    "hands": "2d 10h 9d 6c qh js",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "jc 10c ks qc 8c",
+    "hands": "as 4s js jh 9c 10h",
+    "trophies": "3 1 2 1 3 2 2 3 1"
+  },
+  {
+    "solution": "9c 2h kc ac 8c",
+    "hands": "2s 9h 6c ah 8s kd",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "3d 7c 4c 2c 2d",
+    "hands": "6h 5c 2s 2h 7s ac",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6d 6c 5d ks kh",
+    "hands": "5h 4s 10d 6h kc 8s",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "6h 7h 4c 8c 4d",
+    "hands": "7d 7s 4h 5h 9d ks",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10c 8s 10d 10s kc",
+    "hands": "8d 8h kd 4d 6d 10h",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "2h 5h 7c 6h 3h",
+    "hands": "qh 7s 6d 6s 4h as",
+    "trophies": "1 2 3 2 1 3 2 3 1"
+  },
+  {
+    "solution": "7s 8s 4s 6d 6h",
+    "hands": "ks 2s 5h as 6s 7h",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9h 10h 8d 10d 10s",
+    "hands": "2h 2d 9c 10c 7c jd",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "9c 9h 8c 5c 9s",
+    "hands": "6h 7h 9d 4s 2c qc",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "2s 4s as kc 3s",
+    "hands": "ks 8d 5s 5c 4d kd",
+    "trophies": "3 1 2 2 3 1 2 1 3"
+  },
+  {
+    "solution": "2h 5d kc 9c 10c",
+    "hands": "9h ks 5h 2d 10s 10d",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "5d 7d 6d 9d 7h",
+    "hands": "5s 6h as ad 7s 9s",
+    "trophies": "1 2 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "9h qc 9c jd 10h",
+    "hands": "10c 10s 5h 9s 9d 8d",
+    "trophies": "3 2 1 2 1 1 1 3 2"
+  },
+  {
+    "solution": "qd ad 9d 7s 7h",
+    "hands": "ac as 9c qh 7c 7d",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "3h 9c 7c 3c 5c",
+    "hands": "3s 9h 8c 6c 9d 10d",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "5d 3d 7d 3c 3s",
+    "hands": "8h 7s jd 10d 3h 5c",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "4d 2c ad 3d 5d",
+    "hands": "qd qc 2d 3c 4c ah",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "5s jh 5d 5c jc",
+    "hands": "10h 2d 9h 5h js jd",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "2d kd 5d 9d 9h",
+    "hands": "8d 5h kc kh 9s 2h",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "5h 10h 3d 3s 10c",
+    "hands": "10s jc 5d 3h 8s 3c",
+    "trophies": "2 1 3 3 1 2 1 2 2"
+  },
+  {
+    "solution": "qs 4c 6c 3d 10d",
+    "hands": "ah 6s qc 10s 3c 4h",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5c 3s 4c 3d 3c",
+    "hands": "3h 8d ac 5s 2c ah",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "qd 7s 7h 9d jd",
+    "hands": "kd 10d jh 9c 7c 6h",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4h 3c 4c 6c jh",
+    "hands": "jc 10c 2h 5s 4d jd",
+    "trophies": "2 3 1 1 2 3 2 3 1"
+  },
+  {
+    "solution": "8c 7h jh 8d jd",
+    "hands": "8h ks 7d js 10c 10s",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "ah 10d 5h qc 10h",
+    "hands": "10c 2s 5s qs 4c ad",
+    "trophies": "2 3 1 3 1 2 1 3 2"
+  },
+  {
+    "solution": "9d 9s 10d 8s jd",
+    "hands": "8h 9h 8d 7d 5s jc",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "kd 6c 3c 2c qc",
+    "hands": "2h 6d 3h qh kc 4h",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "4c 3c 2s 6c 2d",
+    "hands": "as 10d 2c 3d 5s jd",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "4c 5s 3s 8s 8c",
+    "hands": "as 2s 5h 8d 10s 10c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "kc 3h qs 3c jd",
+    "hands": "10d 3s kd 4s ad 10s",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "6s 8s 6c js 9s",
+    "hands": "10s qs 6h jd 4d 4h",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "9s 10s qs qc qd",
+    "hands": "qh kh 10h 9d 2s 5s",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7s 9s 10h 10s 6s",
+    "hands": "9h 7d 6d 10c 3h 8s",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "6c 9s as 8d 10h",
+    "hands": "qs 9h ah 7d 8h 8c",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "10h 7d 9s 9c jh",
+    "hands": "8d 6d 9d 10d 8h 8s",
+    "trophies": "1 2 3 2 1 3 2 1 2"
+  },
+  {
+    "solution": "5s 4s 3s 5c as",
+    "hands": "3d 5d ac 2s 6s 8h",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "qs 6s 3d 2h 5s",
+    "hands": "2d 3c 10h qh 4d 7c",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "7s 8d 6d kd 9d",
+    "hands": "6c 10c kh ks 6s 7d",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "9d qd 4c 4s ad",
+    "hands": "3d qs jd 4h ac 9s",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "6d 5s 3h 3d 5h",
+    "hands": "3c 9s 2h 4h 5d 3s",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "js 7d 10h 7s 9s",
+    "hands": "ah 8h 10s 8s 7h 3s",
+    "trophies": "3 1 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "qs 9s 10s 2c 2s",
+    "hands": "as ah kh js 10d 2h",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "7s 5s 8s 9s 8h",
+    "hands": "qd 10s 8c 8d 5c 6h",
+    "trophies": "3 1 2 1 3 2 2 1 3"
+  },
+  {
+    "solution": "9d ad 6h 8d 7d",
+    "hands": "2h 2d 10h ac 8s 6s",
+    "trophies": "3 1 2 3 2 1 1 2 3"
+  },
+  {
+    "solution": "2d 6s 4d 10d 10s",
+    "hands": "ah ac 6c 10c 3d 5d",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "10c qc 8c qd jc",
+    "hands": "ah 4c js 9c 8d qs",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5s 8s 8d jd 6d",
+    "hands": "7s 9c 8c 4c jc js",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "10s 3s js jc 10d",
+    "hands": "qc jd ks 8s 3h 10c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "3c 8d 3s 5h 3h",
+    "hands": "5d 5s 8c 3d 7h 4s",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "8c 7c 4s 9c 5c",
+    "hands": "5s ah 5h 6c jd 10c",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kd 10h 10d js ah",
+    "hands": "ac 10s qh ad 5d 8c",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "qh 7s 7h qs qd",
+    "hands": "9c 7d qc 8s 6s 3d",
+    "trophies": "1 2 3 2 1 3 2 1 2"
+  },
+  {
+    "solution": "3s 9d 8h 4h qd",
+    "hands": "jd 10h 3h jh 4c 3d",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9d 2s 2d 4d 5d",
+    "hands": "4c 2h 3d ad 9s qh",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "kc 10c 3d 5h 7c",
+    "hands": "7d 7h 5c 3c 10d ks",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "kh 7s 8c 7d 8h",
+    "hands": "10h 6s 8d kc 7c 6c",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6s 4h 8c 9d 10d",
+    "hands": "9s 7s kd 2s 4c 8h",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "4h 2s 2h 4c 2c",
+    "hands": "10c 4s 8d qd 2d kc",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "qd 10h jh qh kh",
+    "hands": "4d ac 3s qc as ah",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "5c 4s 6s 6d 8h",
+    "hands": "3h 2d 8d 8c 6h 6c",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "8h 5s 6d 4c ks",
+    "hands": "7h 5d 8d 5c 8s kd",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "5s 7c 8h 6d ks",
+    "hands": "8c 10s ad kd 2c 4h",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5h 4s 2s 3s 5s",
+    "hands": "5d 4c ad as 6d qc",
+    "trophies": "1 2 3 3 2 1 2 1 3"
+  },
+  {
+    "solution": "4s 2h 9c 6s 8s",
+    "hands": "9h 8h 6c 4h kh 2d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "3d as 4c 5d 5h",
+    "hands": "qh 6c 4h 2s 5s 5c",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "jh kc kh 3d kd",
+    "hands": "7h ks 3s 3c jc 3h",
+    "trophies": "1 3 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "6h 3d 4d 10c 10s",
+    "hands": "10d 6c 6d 4h 2h 5s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7c 8c 5h 5d ad",
+    "hands": "8s 5s ac as 6s 9h",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "4d 5c 6d 6h 8s",
+    "hands": "3s 2h 6c 6s 8c 8h",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "10d 9d qd qs qh",
+    "hands": "9h 10c qc kc 5d 2d",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "2s kc 9d 2h 10c",
+    "hands": "qc jh qd kh 2d 4d",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "5h 8d 8h jd 6d",
+    "hands": "9c 7h jh jc 4c 8c",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "8h 3c 3s 5d 3d",
+    "hands": "4s 7d 5s 5h 3h 8c",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "9d 7d 10c 10d 6d",
+    "hands": "6h 10s 8d 3c 7h 9c",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "5s 4c 6h 4d 4s",
+    "hands": "7s 8h 5d ah 9c 4h",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "5c 2c 7s 4c 6h",
+    "hands": "ac 7c 3s 3c 2d 5h",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5c 10d ac qs 10c",
+    "hands": "ad 4s 10s 2h 5h qh",
+    "trophies": "1 2 3 2 3 1 2 1 3"
+  },
+  {
+    "solution": "6h 6c 8c jc 9c",
+    "hands": "6s jd qc 10c 4s 4d",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9c 7c 5c 6h 8c",
+    "hands": "as 6c 4c kc 10h 8h",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "qc 7s 7h 9c jc",
+    "hands": "10c kc jh 9d 7d 6h",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "8c 10h 9h 10c 10s",
+    "hands": "2c 2h jc 7d 10d 9d",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "7s 2h 9c 10c 8s",
+    "hands": "2d 3s 7d 6s 10d 5h",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "10c 4d 9h qh ac",
+    "hands": "qd qc 4s 9s 10d ad",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "jc 8s ac 10c 7c",
+    "hands": "9d 9h 8c 10d jd ah",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "qc 5c 7c qd 5s",
+    "hands": "qs 3s ac 9c 7d 5h",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "7d 3c 6d 3d 4d",
+    "hands": "jc 5h kd 3s 6h 10c",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "4h ah 2s 3h 5h",
+    "hands": "qs qh ac 4s 3s 2h",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "6d ks qh as js",
+    "hands": "ah 10d 10s 6s kh kc",
+    "trophies": "3 2 1 2 3 1 2 1 3"
+  },
+  {
+    "solution": "7d 7h qd qh qs",
+    "hands": "qc 8h 3s 6h 7s 9c",
+    "trophies": "2 3 1 1 3 2 1 2 2"
+  },
+  {
+    "solution": "4h 4c 6s 6c 4d",
+    "hands": "10d 9s 5d 4s 7h 6d",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "2h 9c kc ac 8c",
+    "hands": "6c ah 9h 2d ks 8d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "8h 9d jh 7d 9c",
+    "hands": "qs jc 10s 2h 9h 6d",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "4h 2h 2d 6h 3h",
+    "hands": "2c 9d kc 5h 2s 6d",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "5h 7c 8c 5s as",
+    "hands": "ad ac 8d 5d 9h 6d",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "qs 4c 6c 3h 10h",
+    "hands": "qc 10s 3c 4d 6s ad",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "7h 8s jd jh jc",
+    "hands": "7d 8h 10d 9h kh js",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "5h 6c 8s 4d kh",
+    "hands": "7s 5c 8c 5d kc 8h",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "kd 3h qs 3d jc",
+    "hands": "3s 10c ac 10s 4s kc",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 5h 7h 9h 8d",
+    "hands": "5s 6d qc 10h 8c 8s",
+    "trophies": "2 3 1 2 1 3 3 2 1"
+  },
+  {
+    "solution": "qd jd 9d 5s 5h",
+    "hands": "jc 9s 5c 5d qs 3s",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "9c 9s qs jh 10c",
+    "hands": "8h 9h 5c 9d 10d 10s",
+    "trophies": "1 2 3 1 1 2 2 3 1"
+  },
+  {
+    "solution": "qd 3c 6d 2h 5d",
+    "hands": "qh 10h 3s 2c 4c 7s",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3c 7s 9s 3s 5s",
+    "hands": "10d 9d 8s 6s 9c 3h",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5h 2s as 2d 6d",
+    "hands": "5c kh 6c 2c 4s 3c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "4h 2h 5s 3h 5h",
+    "hands": "4c 5d ah ad qc 6d",
+    "trophies": "1 2 3 3 2 1 2 1 3"
+  },
+  {
+    "solution": "jd 9h 4s 8s 4c",
+    "hands": "8h jh kd 9d 4d 9s",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "5d jc 5s 5h jh",
+    "hands": "10c 2d 5c 9c js jd",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4d 7c 6s 4s 4h",
+    "hands": "8h 5h jc 6c 4c 7d",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "7c 8s 6s ks 9s",
+    "hands": "kh kc 6d 10d 7s 6c",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "qs qd 2d 2c 2h",
+    "hands": "3d qh 9d 9s js 2s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "7d 7h qh qd ad",
+    "hands": "10s 7c qc ac qs 4d",
+    "trophies": "1 2 3 2 1 1 3 1 2"
+  },
+  {
+    "solution": "4d 3c 7d 2d 2c",
+    "hands": "6h 5d 2s 2h 7s ad",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "2h 4h 6s 10h 10s",
+    "hands": "ac ad 3h 5h 6d 10d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10c qc 4c qd qh",
+    "hands": "2c 5c qs as 10d 4s",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "4s 5s 3c 3d 3s",
+    "hands": "5c as ah 2s 3h 8d",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3s 5c 6h 3h 5s",
+    "hands": "3c 5h 9c 3d 4s 2s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5s 7s 3s 3h 3c",
+    "hands": "7c 8d js 10s 3d 5h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "5s 3s 4s 5h as",
+    "hands": "5d 3d 6s 8c ah 2s",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "7h 6h 5h 9h 7d",
+    "hands": "5c 6d ah ac 9c 7c",
+    "trophies": "1 2 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "ad 6c 9d 8h 10s",
+    "hands": "9s qd 8c 8s as 7h",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "9h 3s 5c qd 10s",
+    "hands": "10d 5h 3c qh 9c 6h",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "8c 7c 4s 4h 8s",
+    "hands": "8h 6h 10c 4d kd 7h",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "5d 7c 2h 5s 2s",
+    "hands": "8h 5c 2c 7s 9c 9h",
+    "trophies": "3 1 2 1 3 2 1 2 3"
+  },
+  {
+    "solution": "ad 3s js 2h 6c",
+    "hands": "2s ah 6s 6h 3c jc",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "3c ad 4h 5c 5s",
+    "hands": "5h 5d 4s 2d qs 6h",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "8d ks 7c 7h 8s",
+    "hands": "kd 8h 7d 6d 10s 6c",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "6h 4d 3d 10c 10s",
+    "hands": "4h 6d 5s 2h 6c 10d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "ad 6c 9d 8d 7d",
+    "hands": "ah 10c 2c 2d 8s 6s",
+    "trophies": "1 3 2 2 3 1 2 1 3"
+  },
+  {
+    "solution": "2d jd qd 5d 2s",
+    "hands": "js 2c ad qh 5h 5c",
+    "trophies": "1 2 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3d 8d 5s 4s 4d",
+    "hands": "5c 3s js 8c 8h 4h",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5d 6c qd 6s kh",
+    "hands": "5c 6h 7h kc qh 5s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "6s 2c 4c 2s 6h",
+    "hands": "2h 2d 5d 3d 6c 10s",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "8s 2h 5s 7h 6s",
+    "hands": "3s 7s 2d 5c 4h 4d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "7d 6s 10h 5c 5h",
+    "hands": "10s 6h 3s 4c 5d 5s",
+    "trophies": "1 3 2 3 1 2 3 2 1"
+  },
+  {
+    "solution": "6c 5h 6h 3h 7h",
+    "hands": "5d 6d qs 4h qd 3s",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 9c 9d 9s kd",
+    "hands": "6h kc 4c 9h 8c 8s",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "3c 6c 5c 3d 2c",
+    "hands": "7s 4c ks 2d 3s 6d",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "ah qs kh ac 5h",
+    "hands": "jh 10s 5c 5s ad kd",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "9c 7d 5d 9d 8d",
+    "hands": "ks 9h 5s 7s 6d 6h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3c 9h 8s jc jh",
+    "hands": "8h 10s 3s js 9d 9c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "7s 3s 6s 7c 4s",
+    "hands": "7d 3h 10h kc 10s 5s",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "qh 10d kc jh qc",
+    "hands": "4s ad ac ah qd 10h",
+    "trophies": "3 2 1 1 1 2 2 2 1"
+  },
+  {
+    "solution": "7s 8c 7d 8h jc",
+    "hands": "jh 7h 7c 6h js 8s",
+    "trophies": "1 2 3 2 2 1 2 3 1"
+  },
+  {
+    "solution": "8h 6h 9h 5s 9s",
+    "hands": "6s 9d 7c 7d 2h 10h",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "2c 3d 5c qc qh",
+    "hands": "5s qd ah 4h kc ac",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9s qh jh 6c 9c",
+    "hands": "9h jc 4h 4s qc 6s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "5c 2d 5s 9h 5d",
+    "hands": "8c 8s 5h 9d 2c 2h",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "10s 8c kc 3s 6h",
+    "hands": "3c 3d kd 6d 10c 8s",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7s 10c 6s 8s 9s",
+    "hands": "9h 4c 10s 7d ah ac",
+    "trophies": "3 1 2 1 2 3 2 1 2"
+  },
+  {
+    "solution": "3h 8c 5c 3d kh",
+    "hands": "qh kd 5s 8s jd 3s",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "8s 8d qs 10s qc",
+    "hands": "qd 3s 5s 7s 10d 8c",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "7d jd 7c 8d 9d",
+    "hands": "10d 9h 7h ah 8s 8c",
+    "trophies": "3 1 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6h 5s 4s ac 2s",
+    "hands": "js 6s ad 3c qs qh",
+    "trophies": "2 3 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7h 9d 10d jh qd",
+    "hands": "8s 4c 9s 7d kc kh",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "kc kd 10s jh qs",
+    "hands": "ah ad 2s ks qc 9s",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4c 5c 5s 6d 8h",
+    "hands": "8s 5d 3c 2s qd 6c",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "jc 4d 4c kd js",
+    "hands": "4s 8d jd kh qh qs",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "3s 5d 6s 10c 10d",
+    "hands": "5s 5h 4s 7h 10s 10h",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "8s 2h 5d 4c 4h",
+    "hands": "4d 4s 5s 2s 6d 8h",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "10d 7h 5c 10s kc",
+    "hands": "5d 10h ks kh 5s 7c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "jc 10c 2d 9c 8c",
+    "hands": "7h 7c 9d 6h 2h 10s",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "jc 9d 7d ks 9h",
+    "hands": "9c ad 7h js 10h kd",
+    "trophies": "2 1 3 3 1 2 1 3 2"
+  },
+  {
+    "solution": "qd ac kc 10c jc",
+    "hands": "as ks 7c 9d 10s 10h",
+    "trophies": "1 3 2 2 3 1 2 1 2"
+  },
+  {
+    "solution": "jd 10h 10s qh 10d",
+    "hands": "9c kc 10c 2c qd qs",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "ks 3c 8d qs qd",
+    "hands": "kc 4d qh qc 8c 3d",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5c 8d 7s 5d 5s",
+    "hands": "9s 6s 4h 4d 5h 8s",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "3s 3d jh qd as",
+    "hands": "10s ks 3h 4s 8d qc",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "6d 9h 7d 6c 8c",
+    "hands": "7s 9d ad 10d 6h qd",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "6s 7d 4d 10h 9h",
+    "hands": "4c 4h 10s jh 8d 6d",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "8d 9c 6d 4h 7d",
+    "hands": "5d 9d 8h 4c 5h qc",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "3s 6c 3d 5c 8c",
+    "hands": "7c 4c ad 4d 6h 3h",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "ad qd 8d 8s qc",
+    "hands": "9d 3d 8h as qs 3s",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "5d 6d 4d 5c qd",
+    "hands": "3h 2d 5h 4c qh qc",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3h 5d 2d 4c 3c",
+    "hands": "6c 5s 3d 3s 6s 9s",
+    "trophies": "2 1 3 1 2 1 2 1 2"
+  },
+  {
+    "solution": "8c qc 10c 3d js",
+    "hands": "9h 9d 3s 8d as qh",
+    "trophies": "2 3 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "6c 5d 7h 7s 6s",
+    "hands": "6d 5c 8s 7c 8h 9s",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "4h 3s 2s 7d 5c",
+    "hands": "7c 6d 9d 3c 2d 3d",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "9c 10s 3s as 3d",
+    "hands": "9s ah js 7s 3c 10c",
+    "trophies": "2 3 1 2 1 3 3 2 1"
+  },
+  {
+    "solution": "ah as 3s 5s 2s",
+    "hands": "4d 4s ac 3h 8d 5d",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "4d 7d 3h 10s 3d",
+    "hands": "ac 4h 10d 7s 10c 3s",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "ks kh jh 3d kd",
+    "hands": "js 3h 7h kc 3s 3c",
+    "trophies": "2 1 3 3 2 1 2 1 3"
+  },
+  {
+    "solution": "qd 6d 7d 7c 7s",
+    "hands": "6h 10h 2d 4d qc 7h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2h 5d kc 9c 10c",
+    "hands": "5h 2d 9h ks 10d 10s",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "10s 9s 9d 8d js",
+    "hands": "jh 5d 8s 7s 9c 8c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "js 6d 5h 2d 4s",
+    "hands": "ad jh 3s 3d 5s 2h",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "8d 9c 9d 5d 9h",
+    "hands": "7c 6c 4h 9s 2d qd",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9c 8h 6h qd 9h",
+    "hands": "qs 8d 10h 9s qh 6d",
+    "trophies": "2 1 3 1 3 2 2 1 2"
+  },
+  {
+    "solution": "5h 7h 9c js 8d",
+    "hands": "6c 2h jc jh 7c 9h",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "5h 2s 8h 3h 8d",
+    "hands": "7s 8s 7c 2h 5d 3c",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7h 3h 2c ah 4c",
+    "hands": "4h 2h 10s as 7s 5c",
+    "trophies": "2 3 1 1 2 3 1 3 2"
+  },
+  {
+    "solution": "2s 8c jh jc qc",
+    "hands": "ks jd 9c 10c 8s 2c",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "qs 9c 8c jc qc",
+    "hands": "10s 10c qd ac 8s js",
+    "trophies": "2 1 3 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7d 10d 10c 9d 8d",
+    "hands": "3c 10h 8c 6d 6h 7h",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "8c 7c 4c 6h 6s",
+    "hands": "2c kc 6c 7s ac 5s",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "6s 8d 7c 4d 10d",
+    "hands": "10s 10h 6d 8s 5h jc",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "4d 5s 3s 8s 8d",
+    "hands": "5h 8c 10d 10s as 2s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7h 6h 4c 8c 4d",
+    "hands": "4h 5h ks 9d 7s 7d",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10s 6s 6d kc 10c",
+    "hands": "10h 5c ks 5h 2h 6h",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "qh 4d 6s jd 4s",
+    "hands": "8c 6c jh 4c js qd",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5d 2d 7c 6d 3d",
+    "hands": "7h qd ah 4d 6s 6h",
+    "trophies": "1 3 2 2 3 1 2 1 3"
+  },
+  {
+    "solution": "4c 8d 6s 9h 10h",
+    "hands": "8c 4d kh 2s 7s 9s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10d 8d js 9d qd",
+    "hands": "jd 10h qh 6s 2d kd",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "js 9s jh ac jc",
+    "hands": "8d 7h jd 9c as ah",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "4c 3c 2h 6c 2d",
+    "hands": "3d 2c jd 5h ah 10d",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "jd 8h 7d 8c jc",
+    "hands": "10s 10h js 7c 8d ks",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "2c as 2s 5s 4s",
+    "hands": "2h jd 3d 3c 5h 3s",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "9c 10c qc 2h 2c",
+    "hands": "10s 2d ac ad jc kd",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7h 10d jc 7c 9c",
+    "hands": "ad 8d 8c 10c 3c 7d",
+    "trophies": "3 1 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "ad 10d qd 6s 6c",
+    "hands": "jd ks 10h 6d js jh",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9c 7s 10h 9d jh",
+    "hands": "8c 8h 9s 10s 8s 6s",
+    "trophies": "3 2 1 3 1 2 2 1 2"
+  },
+  {
+    "solution": "5c 2c kc 9c 9s",
+    "hands": "kh ks 2s 9d 8c 5s",
+    "trophies": "1 3 2 2 3 1 1 2 3"
+  },
+  {
+    "solution": "10d 3d jd jh 10s",
+    "hands": "qh js 8d kd 10h 3c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "5s 8d 7c 6h ks",
+    "hands": "4d 2c kh ah 10s 8c",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "4s 2h 9c 6s 8s",
+    "hands": "kh 2d 4h 6c 8h 9h",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10c 3d 5c 3h 10s",
+    "hands": "8h 3s 3c 5d js 10h",
+    "trophies": "3 1 2 2 1 3 2 2 1"
+  },
+  {
+    "solution": "2d 2h 9h 4h 5h",
+    "hands": "9d qs 4c 2s 3h ah",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4d 2d 2s 4c 2c",
+    "hands": "kc 2h qh 8h 10c 4s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "4h 2h ah ks 3h",
+    "hands": "5s 5h kc 4c kh 8c",
+    "trophies": "1 2 3 3 1 2 1 3 2"
+  },
+  {
+    "solution": "2c 3c 6h 4c 5h",
+    "hands": "5d 4h 7d 10s ac jc",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5h 6s 6h 8h 6d",
+    "hands": "3c 6c 9h 7s 7c 2d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "4c 9d qd 4s ad",
+    "hands": "jd 4h 9s ac qs 3d",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "8s 9h 3d 4s qh",
+    "hands": "3h 4c 3s js 10s jh",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "2d 5d 4c jc 3h",
+    "hands": "2s 6s 6c js jh ac",
+    "trophies": "1 3 2 3 2 1 1 1 2"
+  },
+  {
+    "solution": "qs 9s as 7d 7h",
+    "hands": "ad ac 7c 7s 9c qh",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "3h ks 10s 5d 7s",
+    "hands": "3s 5s kc 10h 7h 7d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "js 9h qc jd kh",
+    "hands": "ah jh qd 5d kd 9s",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "8d 7h 4d qd 9d",
+    "hands": "qc 2d 8c 7c 9s 4s",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "6s 6c 5c kd kh",
+    "hands": "10c 6h ks 8d 5h 4d",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "10c 9c 8c 6c jd",
+    "hands": "kc kd 7s 8s jh 7d",
+    "trophies": "2 3 1 1 3 2 1 2 2"
+  },
+  {
+    "solution": "10h jh kc qh 8h",
+    "hands": "ac 4c jc js 9h 10s",
+    "trophies": "3 1 2 1 3 2 2 3 1"
+  },
+  {
+    "solution": "qs ah 4c 4h qc",
+    "hands": "8s 4s 7d 9s ad qh",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6d kh 3d 2d qd",
+    "hands": "6h 2s 3s qs kd 4s",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "8d 10d qd qh jd",
+    "hands": "jc 9d as 4d qc 8h",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "qs 10c jc qc kc",
+    "hands": "qd 3h ac ah ad 4s",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "6c 5h 5s 8c 2h",
+    "hands": "5d 2c 9s 7d 9c 8s",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "8c 4h 7c 9c 5c",
+    "hands": "6c 5d ad 5h js 10c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "10d 10c 8s 10s kc",
+    "hands": "6d 10h kd 4d 8h 8d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "10s ks 10c jd ac",
+    "hands": "5s 8h ah 10d qc as",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "4c 3c 4h 6c jh",
+    "hands": "10c jc 4d jd 2h 5s",
+    "trophies": "2 1 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "as 5h 4d 2d 5s",
+    "hands": "4s 5c ks 3c 8d 4h",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "js qh 4d jc qs",
+    "hands": "4s jd qc 6d 5c jh",
+    "trophies": "1 2 3 1 3 2 2 1 2"
+  },
+  {
+    "solution": "9h 10h qd jh 9c",
+    "hands": "kh 8c ac as 10c 9s",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "ks ad kc as ac",
+    "hands": "9d 9s 5d kh ah 6h",
+    "trophies": "3 1 2 3 2 1 2 2 1"
+  },
+  {
+    "solution": "4c ac 5c 5h 6c",
+    "hands": "2d 3h 5d 2c kd kc",
+    "trophies": "1 3 2 1 2 3 3 2 1"
+  },
+  {
+    "solution": "9s 5s 7s 6c 8s",
+    "hands": "4s 5c 6s kh jc 9d",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "jh 8s 7c jc jd",
+    "hands": "kc js 9c 10h 7h 8c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "4s 6h 7c 4h 4d",
+    "hands": "7s 4c jc 6c 5d 8d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "ks 10d jd qd 8d",
+    "hands": "9d 10c as 4s jc js",
+    "trophies": "2 3 1 2 1 3 1 2 3"
+  },
+  {
+    "solution": "9s 10h 9h 8s jh",
+    "hands": "8h 7h 9c 8c 5s jd",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "4d 7d 6c 10h 9h",
+    "hands": "4h 4s 8d 6d 10c jh",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "jc 5h 5d 5s js",
+    "hands": "10c 2h jh jd 5c 9c",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "4d 6c 2d 2c 6h",
+    "hands": "6d 10c 5s 3s 2h 2s",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2c 5s ac 2d 6d",
+    "hands": "2h 6h ks 5h 3h 4c",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "9h qh ah 7c 7d",
+    "hands": "as ac 7h 7s qd 9s",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "2d 4d 2s 6d 3d",
+    "hands": "2h 6s kc 5d 9s 2c",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "4d 3c 7d 10s 3d",
+    "hands": "10d 7s 4c ah 10h 3s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "4h ah 2s 3h 5h",
+    "hands": "4s ac qh qs 3s 2h",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "7h 5h 3h 3s 3c",
+    "hands": "5s 3d 7c 8d jh 10h",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "ac 4c 2c kh 3c",
+    "hands": "kd 4d 8d kc 5c 5h",
+    "trophies": "2 3 1 1 2 3 3 2 1"
+  },
+  {
+    "solution": "3c 5s 9h qd 10c",
+    "hands": "5h 10d 3s qh 6h 9s",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "2s 7c 5s 4s 6d",
+    "hands": "as 7s 5d 2h 3s 3c",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "kh 5c 2s 9h 10h",
+    "hands": "5s 2c 10c 10d kd 9s",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "kc 6s 3s 2s qs",
+    "hands": "qh 3h ks 4h 6c 2h",
+    "trophies": "3 1 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "3d 10d jd jc 10s",
+    "hands": "8d kd 10c 3h qc js",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "kd 8d 10s 3s 6h",
+    "hands": "3c 3d kc 6c 10d 8s",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "6s 3s 5h 10c 10h",
+    "hands": "5d 5s 7d 4s 10s 10d",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "4s 7s 8s 6d 6h",
+    "hands": "2s ks 7h 6s 5h as",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "4c jd 9s 8c 4h",
+    "hands": "9c 4d kd 9d 8s js",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3s 7c 9c 3c 5c",
+    "hands": "9s 3d 8c 6c 10h 9h",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6h 9c 7h 6s 8s",
+    "hands": "9h 7d 6c qh 10h ah",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "5d 5h 4h 6c 8s",
+    "hands": "6h qc 3h 2d 5c 8d",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8d qd ad 8s qc",
+    "hands": "9d 3d 3s qs as 8h",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "8c 7s kh 7d 8h",
+    "hands": "7c 6c 10h 6s kc 8d",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "3d 6h 7h 3h 4h",
+    "hands": "5s jd 3c kh 6s 10d",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "3h 9c 8s 4s qc",
+    "hands": "3s js 10s jc 3c 4d",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "ah ac 3c 5c 2c",
+    "hands": "4d 4c 3h as 8d 5d",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7d 9s 10s jd qs",
+    "hands": "8c 4h 7s 9c kh kd",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "6s 5d 7c 7h 6h",
+    "hands": "8h 7s 5s 6d 9h 8c",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "6s 5h 5d 8s 2h",
+    "hands": "7c 9d 5c 2s 8d 9s",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "7d qc 7c qd ad",
+    "hands": "4d qh 7s 10h qs as",
+    "trophies": "3 1 2 1 2 1 2 3 1"
+  },
+  {
+    "solution": "jh 10h 2d 9h 8h",
+    "hands": "7h 7c 10s 2c 9d 6c",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7d js 7s 8s 9s",
+    "hands": "7h ah 10s 9h 8d 8c",
+    "trophies": "1 3 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6s 9s 8s 5d 9d",
+    "hands": "9h 6d 10s 2s 7h 7c",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "8d 3s 5d 3h ks",
+    "hands": "qs kh 8c 5c 3c jh",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "7d 5d 9d 6c 8d",
+    "hands": "6d as 10c 8c 4d kd",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "6d 10c 7s 5h 5c",
+    "hands": "5s 5d 3d 4h 6c 10d",
+    "trophies": "2 3 1 2 1 3 1 2 3"
+  },
+  {
+    "solution": "js 3c 3h qh ac",
+    "hands": "kc 10c qd 8h 4c 3s",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4s 6h qc js 4h",
+    "hands": "8d 6d qs jh 4d jc",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "2h 6s 4h 10h 10s",
+    "hands": "ac ad 3h 5h 10c 6c",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4s ah 3d 5d 5c",
+    "hands": "5s 5h 2h 4c qc 6s",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10s 9c 3s as 3d",
+    "hands": "10c 3c 9s ah js 7s",
+    "trophies": "1 2 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "5h 8c 8h jc 6c",
+    "hands": "jd jh 9d 7h 8d 4d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "3c 2h 5h qh qs",
+    "hands": "ah kh 5d qc 4s as",
+    "trophies": "3 2 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "jc qh 10c qc kc",
+    "hands": "as ac 3s qd ad 4h",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "qh 8h 8c 10h qs",
+    "hands": "qc 3h 7h 5h 10c 8s",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "qc 9d 9c jh 10d",
+    "hands": "10s 10c 9h 8h 5d 9s",
+    "trophies": "3 1 2 2 1 1 1 2 3"
+  },
+  {
+    "solution": "2d 2h 9h 4h 5h",
+    "hands": "3h ah 2c 4s qc 9d",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "9s 10h 7s 10s 6s",
+    "hands": "7c 9h 3h 8s 6c 10d",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "8s 6s 6c js 9s",
+    "hands": "jh 6d qs 10s 4d 4h",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "7s 9d 2c 10d 8s",
+    "hands": "10h 5c 3s 2h 7h 6s",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8c 4c 7d qc 9c",
+    "hands": "2c qh 4s 9s 7h 8h",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "10h 7h 10s 9h 8h",
+    "hands": "6h 8s 3s 10d 6d 7d",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "8h 3c kd qd qh",
+    "hands": "4h kc 8c 3h qs qc",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2h 4d 2d 4s 2s",
+    "hands": "ks 2c qc 8c 4h 10s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6d 6s 10d kc 10c",
+    "hands": "5c 10h 5h kd 6h 2h",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4c 6s 7s 8c 4h",
+    "hands": "7d 7h 4s 5s 9h kd",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "2s 7c 5d 5h 2h",
+    "hands": "8s 5c 9c 9s 2c 7h",
+    "trophies": "3 2 1 1 2 3 1 3 2"
+  },
+  {
+    "solution": "10h js 8h 9h qh",
+    "hands": "2h kh jh 10c qc 6s",
+    "trophies": "2 1 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "jh 10s 10d qs 10h",
+    "hands": "qh qd kc 9c 2c 10c",
+    "trophies": "2 3 1 1 2 3 2 3 1"
+  },
+  {
+    "solution": "2d 3d 6s 4d 5s",
+    "hands": "4s 5c 10h 7c ad jd",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "qs 9s 10s qc qh",
+    "hands": "qd kd 2s 5s 9h 10d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "10d 10c 8s 10s kd",
+    "hands": "8h 8c 10h 6c 4c kc",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "9h 4c 10d qh ad",
+    "hands": "4s 9s ac 10c qd qc",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "3d 6c 3h 5c 8c",
+    "hands": "7c 4c 4h ah 6s 3s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "8d 9s 9c 9h ks",
+    "hands": "9d 4c 6d kc 8c 8h",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5s 8h 7h 5c ac",
+    "hands": "9s 6d 8d 5d ah ad",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "6c qd ks as js",
+    "hands": "10s 6s kd kh 10c ad",
+    "trophies": "2 1 3 3 1 2 1 3 2"
+  },
+  {
+    "solution": "9c js jc ah jh",
+    "hands": "9h jd 7s 8d as ac",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "kc jc kd 3s ks",
+    "hands": "jd 3c 3d 3h kh 7c",
+    "trophies": "2 3 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "10h 7c jd 7d 9d",
+    "hands": "3d 7h 10d 8d ah 8h",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "7h 5d 8s 5s 5h",
+    "hands": "9h 6h 4s 4c 5c 8h",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5d 4c as 2c 5s",
+    "hands": "4s 5h 3h ks 4d 8c",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "qs 4c ah 4h qc",
+    "hands": "9s 7d qh ad 8s 4s",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6c 6h 5h 3h 7h",
+    "hands": "6d 5d qs 4h 3s qd",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "9h qh 4s 4d ah",
+    "hands": "as 9d 3h qd jh 4c",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2s 4c 3c 6c 2d",
+    "hands": "2c 3d 5s jd 10d as",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "qh 10d 9d jd 9s",
+    "hands": "ac as 10s 9c 8s kd",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "7h 5h 9s jc 8d",
+    "hands": "6s 2h js jh 7s 9h",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "qc qd 2d 2h 2s",
+    "hands": "9d 9c 3d qs jc 2c",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4d jh 4h kd jc",
+    "hands": "4c 8d ks jd qs qc",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "8d qc 9d jd qd",
+    "hands": "10d 10c jc 8c qs ad",
+    "trophies": "2 3 1 1 2 3 1 3 2"
+  },
+  {
+    "solution": "10s 8d 9s 10d 10h",
+    "hands": "2d 2s 10c 9c 7c jd",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5d 10s ad qc 10d",
+    "hands": "qh 5h 2h 10c 4c as",
+    "trophies": "3 2 1 1 3 2 3 1 2"
+  },
+  {
+    "solution": "9h 2c kh ah 8h",
+    "hands": "2s 9c ac 6h kd 8s",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "2c as 2s 5s 4s",
+    "hands": "3d 3c 3s 5h 2h jd",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "5s 10s 3h 3c 10d",
+    "hands": "3d 8c 10c jd 3s 5h",
+    "trophies": "3 2 1 2 3 1 2 1 2"
+  },
+  {
+    "solution": "10s 3h ks 5c 7s",
+    "hands": "7c 7h 3s 5s 10h kd",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "6h 7d 8h kh 9h",
+    "hands": "7h 6d kd ks 10c 6c",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "8d 3d 5h 4h 4d",
+    "hands": "jh 8s 3h 5s 8c 4c",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "9c 8d jd 7c 9s",
+    "hands": "js qh 9d 6c 10h 2d",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "qh jd 9s jc ks",
+    "hands": "9d kc qc 5c as js",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2s 8c jh jc qc",
+    "hands": "9c 10c ks jd 2c 8s",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "5s 6s 6d kc kh",
+    "hands": "kd 8c 4c 5h 6h 10s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "qd jd 2d 5d 2h",
+    "hands": "jh 2s ad qc 5s 5c",
+    "trophies": "1 2 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "10s kc kh jd qs",
+    "hands": "9s qc ad ah 2s ks",
+    "trophies": "3 2 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "5h 2c 4c 3c 5c",
+    "hands": "4s 5d ad ac 6d qs",
+    "trophies": "1 2 3 3 2 1 2 1 3"
+  },
+  {
+    "solution": "6d 6c 5d 8d 6h",
+    "hands": "9d 7c 6s 3s 7s 2h",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4d 3d 6h 10c 10s",
+    "hands": "4h 6d 10d 6c 2h 5s",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "jc 9c qc 5s 5h",
+    "hands": "9s jd qs 3s 5d 5c",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "10s 10h kh jc as",
+    "hands": "5h 8d ah qs ad 10c",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "7h 5h 8h 9h 8c",
+    "hands": "10h qs 5d 6c 8d 8s",
+    "trophies": "3 2 1 1 2 3 2 3 1"
+  },
+  {
+    "solution": "5c 7h 2c 6c 3c",
+    "hands": "6s 6d 4c as qc 7s",
+    "trophies": "2 3 1 1 3 2 3 1 2"
+  },
+  {
+    "solution": "10c qc 4c qh qs",
+    "hands": "10h 4d qd ad 5c 2c",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "6h 4s 5c 4d 4c",
+    "hands": "4h 9s 5d ah 8h 7c",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "4s 4c 6d 6c 4h",
+    "hands": "4d 5h 9d 10h 6h 7s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "8s 6c 7h 4s 10s",
+    "hands": "5d jh 8c 6s 10c 10d",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "kc ac qs ah 5c",
+    "hands": "jc 10s 5s 5h ad kd",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5h 7c 8s 6d kh",
+    "hands": "2c 4s ad kd 10h 8c",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "9c 3d 8h jd jc",
+    "hands": "8c 10h jh 3h 9s 9d",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "2h 3d 7d ad 4h",
+    "hands": "2d 4d 10c ac 5h 7c",
+    "trophies": "2 3 1 1 2 3 1 3 2"
+  },
+  {
+    "solution": "ad 6h 9d 8d 7d",
+    "hands": "2h 2d 8s 6s ac 10h",
+    "trophies": "3 2 1 3 1 2 1 3 2"
+  },
+  {
+    "solution": "3c 4d 7d 2d 2c",
+    "hands": "2h 2s 5d 6h 7s ad",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "7c jc 8s 8h jh",
+    "hands": "7h jd 10s 10d kd 8c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3d ah jd 2s 6c",
+    "hands": "2d as 6d 6s 3c jc",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "qc 8c 10c 3s jh",
+    "hands": "ah qd 8s 3h 9s 9d",
+    "trophies": "1 3 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3d 3c 8h 5s 3s",
+    "hands": "8c 3h 5h 5d 4d 7s",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "7s 7c qd 9d jd",
+    "hands": "kd 10d 6c 7h jc 9h",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "3h 4s 4h 6h js",
+    "hands": "5c 2s jh 10h jd 4d",
+    "trophies": "3 2 1 2 1 3 3 2 1"
+  },
+  {
+    "solution": "7d 9h 5d 9d 8d",
+    "hands": "7c 5c 6d 6s kc 9s",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "8s 5s 2h 7h 6s",
+    "hands": "7s 3s 5c 2d 4h 4d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "5c 2s 5d 9h 5s",
+    "hands": "2d 2h 5h 9s 8c 8d",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "5d 8c 6s 4h kd",
+    "hands": "8s 5h 7c 5s 8d ks",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "4s 6s 5s 5d qs",
+    "hands": "5c 4d 2s 3c qc qd",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "7c 8c 4d 9c 5c",
+    "hands": "6c 5s 5d as jh 10c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "5c 6c 7c 9c 7s",
+    "hands": "5d 6s 7d 9d ad ac",
+    "trophies": "1 3 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5d 6h 3s 3h 5s",
+    "hands": "3d 5h 4s 2s 9d 3c",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "5c 6h 4c as 2c",
+    "hands": "jc 6c qc qh ad 3s",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "3h 5c 4c 3d 3c",
+    "hands": "8d 3s 2c as ac 5h",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "qs 10s as 6d 6h",
+    "hands": "kd js jd jc 6s 10c",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8s 10s qs qd js",
+    "hands": "jc 9s qc 8d 4s ah",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "5c 4c 3c 5h ac",
+    "hands": "5d 3d 2c ah 8s 6c",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "7h qh 5h qd 5s",
+    "hands": "qs 3s 9h ah 5c 7d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "8s 5c 2d 4h 4d",
+    "hands": "4s 4c 5s 2s 6c 8d",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "5h 4s 3h 8h 8s",
+    "hands": "10h 10s 2h ah 8c 5d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8h 9h 9s 5h 9c",
+    "hands": "4c 9d 6s 7s 2h qh",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "3s 6s 7s 7d 4s",
+    "hands": "10s 5s 10c kd 3c 7h",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6h js 5d 2h 4s",
+    "hands": "5s 2d ah jd 3h 3s",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3c 2c 4h 7s 5d",
+    "hands": "2s 3s 3d 9s 7d 6s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "9s 7s 5s 6d 8s",
+    "hands": "5d 4s kc 6s 9h jd",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "10d qd 9d 2c 2d",
+    "hands": "jd kh ad ah 10s 2h",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "4c 7d 8d 4h 8c",
+    "hands": "7h ks 4s 10d 8h 6h",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "jd qd 9h 6s 9s",
+    "hands": "qs 6h 9d js 4d 4h",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "7d qd 7c qc qs",
+    "hands": "6c 3s 7s 9h qh 8c",
+    "trophies": "3 1 2 3 2 1 2 2 1"
+  },
+  {
+    "solution": "2d 4c 5d jc 3s",
+    "hands": "jh 6c 2h 6h ac js",
+    "trophies": "3 1 2 2 3 1 1 1 2"
+  },
+  {
+    "solution": "js as 8c 10s 7s",
+    "hands": "8s 10d jd ah 9h 9d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "5s as 4s 5d 6s",
+    "hands": "2h 3d ks kh 2s 5h",
+    "trophies": "1 2 3 1 3 2 3 1 2"
+  },
+  {
+    "solution": "as 6h 9s 8d 10c",
+    "hands": "qs 9c ac 7d 8c 8h",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "9s 7d 10c 9h jc",
+    "hands": "8d 6d 9d 10d 8c 8s",
+    "trophies": "1 2 3 2 1 3 2 1 2"
+  },
+  {
+    "solution": "qd 7d 6d 7s 7h",
+    "hands": "4d 2d qs 7c 10c 6c",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "6c 5c 3c 3h 2c",
+    "hands": "2h kd 6h 3d 4c 7d",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "2h 9d kc 2s 10c",
+    "hands": "2d 4d qc js qd ks",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "4h 5c 6h 6d 8s",
+    "hands": "6s 6c 8d 8c 2d 3s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7h 5s 10d 10c ks",
+    "hands": "kh kc 7s 5c 10h 5d",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "5s ks 2s 9s 9h",
+    "hands": "9d 2h kh kc 8s 5h",
+    "trophies": "3 1 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "6h 5s qs 6c kd",
+    "hands": "5c qd 6d 5h kh 7d",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "6s 4c 8d 9h 10h",
+    "hands": "8c 4d 9s 7s 2s kh",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4d 6d qh 3c 10c",
+    "hands": "3d 4s 6h as qd 10h",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "9h 7h jd kc 9s",
+    "hands": "ah 9d 10s kh jc 7s",
+    "trophies": "2 3 1 3 2 1 1 2 3"
+  },
+  {
+    "solution": "8d 6d 9c 4s 7d",
+    "hands": "qc 5s 8s 4c 5d 9d",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3s 6c qc 2d 5c",
+    "hands": "4s 7h 3h 2s 10d qd",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "qs kc 3h 3c jd",
+    "hands": "10s ad kd 4s 3s 10d",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "10d qd ad 6c 6h",
+    "hands": "kc jd jc js 6d 10s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "5s 9c 3d qh 10d",
+    "hands": "10h 5c 9s 6c 3s qc",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "kd 2c 9s 2h 10d",
+    "hands": "4s 2s qd jh kh qs",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "3d 2c 7d ad 4c",
+    "hands": "ah 10h 5c 7h 4d 2d",
+    "trophies": "3 1 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "2c 5s 7d 5h 2h",
+    "hands": "7h 2d 9d 9c 5d 8c",
+    "trophies": "1 2 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "7s 4h 6c 4c 4d",
+    "hands": "8d 5d 4s 7h 6s js",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "jc 6d 5h 2d 4c",
+    "hands": "3c 3d 2h 5c jh ad",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7c 6h 8d 4d 10d",
+    "hands": "8h 6d 10h 10s jc 5s",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "7c 8c 4d 4h 8d",
+    "hands": "ks 7h 4s 10c 6h 8h",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4d 6h 4s 6d 4c",
+    "hands": "7s 6c 10c 9h 5c 4h",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6s qc 4d jd 4s",
+    "hands": "6h 8h jc 4h js qd",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6c 3s 7c 3c 4c",
+    "hands": "js 5d 10s 6d kc 3h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "9s 7s 5s 6c 8s",
+    "hands": "jc 9d 4s 5c 6s kh",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "7s 5s qs qd 5h",
+    "hands": "5c 7d as 9s qh 3h",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "js ad 3s 2h 6c",
+    "hands": "6h 6s 3c jc 2s ah",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "5h 9c 7h js 8d",
+    "hands": "9h 7c jc jh 6c 2h",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "2d qd qc 2h 2s",
+    "hands": "qs 3d jc 2c 9c 9d",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "10d 8d jc 9d qd",
+    "hands": "kd 2d 10h jd qh 6c",
+    "trophies": "2 1 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "jd qs 9h jc kh",
+    "hands": "jh ah qc 5c 9d kc",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "ad 4h qc 4d qh",
+    "hands": "9c 7s 8c 4c qd as",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "6s 5c 6c 8c 6d",
+    "hands": "6h 3h 7s 9c 7h 2d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "2c 6d 3c 4c 5d",
+    "hands": "jc ac 10h 7s 4d 5s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "6d 5s 5c 8d 2c",
+    "hands": "9d 8s 7h 9s 5h 2d",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "2d 2c ac 5c 4c",
+    "hands": "3d 3h 2s jh 3c 5s",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "4s 5c 2c js 3d",
+    "hands": "6h 2h jd as 6s jh",
+    "trophies": "1 2 3 3 1 2 1 2 1"
+  },
+  {
+    "solution": "qs 10s 4s qd qc",
+    "hands": "2s 5s qh ah 10d 4h",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "4d ah 5c 2d 5h",
+    "hands": "3s kh 8d 4c 5s 4h",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10s 6s 6h kd 10d",
+    "hands": "6c 2c ks 5c 10c 5d",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "4c 8c 7h qc 9c",
+    "hands": "8s 7s 9d 4d qs 2c",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "10s 10h 7h 9h 8h",
+    "hands": "7d 6d 8s 6h 3s 10d",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "7c 8d js jc jh",
+    "hands": "10s 9c jd kc 8c 7s",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "js 4c 9h 8c 4d",
+    "hands": "jh 8h 9c 4s ks 9s",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9d 5d 7d 6c 8d",
+    "hands": "10c 8c 6d ah 4d kd",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9h jd jh as js",
+    "hands": "9s jc 7d 8c ah ad",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6s qc kh ah jh",
+    "hands": "6h 10h kc kd ac 10s",
+    "trophies": "2 1 3 3 1 2 1 3 2"
+  },
+  {
+    "solution": "6s 7s qs 7h 7d",
+    "hands": "4s 2s 7c qh 10c 6c",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "8s 2h jd js qs",
+    "hands": "9s 10s 8h 2s kh jc",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9d 10d qc jd 9s",
+    "hands": "as ah 9h 10s kd 8s",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "9d 2c 7h 10d 8h",
+    "hands": "3h 2s 7s 6h 5c 10s",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "ac jc 8d 10c 7c",
+    "hands": "8c 10s js ah 9s 9h",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "8s 9s qd js qs",
+    "hands": "as qh 8d jd 10d 10s",
+    "trophies": "1 3 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2s 5h as 2c 6c",
+    "hands": "2d 6d kh 5d 4s 3d",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "qd jd 9d 5h 5s",
+    "hands": "jc 9h 5d 5c qh 3h",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "5s as 4s 5h 6s",
+    "hands": "ks kd 2s 5d 2d 3h",
+    "trophies": "2 3 1 3 2 1 1 2 3"
+  },
+  {
+    "solution": "9c 10h 4s qc ah",
+    "hands": "10s as 4d 9d qs qh",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "7d qd 7c qc ac",
+    "hands": "10s 7h qs 4c ah qh",
+    "trophies": "1 3 2 2 1 1 3 2 1"
+  },
+  {
+    "solution": "4s 5d 6h 4c 4d",
+    "hands": "5c ah 7d 8h 4h 9s",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "5h 7d 2h 4h 6s",
+    "hands": "7h ah 3h 3d 2c 5s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "4d 2d 2s 6d 3d",
+    "hands": "2c 9s 6s 2h 5d kc",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "9s 8c jc 7s 9h",
+    "hands": "2c 10d jh qd 9c 6s",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "10h ks jh qh 8h",
+    "hands": "as 4s 9h 10d jd js",
+    "trophies": "3 2 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "kc 9c 2h ac 8c",
+    "hands": "6c ah 8d ks 2d 9h",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7s 4s 3h 2s 2h",
+    "hands": "2d 2c 7d as 5s 6c",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6s 5h 6h kc kd",
+    "hands": "10h 6d 5d 4c 8c ks",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "7s 6s 4h 8h 4c",
+    "hands": "kd 9c 4s 5s 7c 7d",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10c 8s 10h 10s kc",
+    "hands": "8d 8h 4h kh 10d 6h",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "2c 5c 7s 6c 3c",
+    "hands": "4c ad 7d qc 6h 6d",
+    "trophies": "3 1 2 3 2 1 1 2 3"
+  },
+  {
+    "solution": "8d 4d 7d 6h 6s",
+    "hands": "2d kd 7s 6d ad 5s",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8s 10c 9c 10s 10d",
+    "hands": "js 7h 10h 9h 2c 2s",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "8s 9d 9s 5s 9h",
+    "hands": "6d 7d 2s qs 4h 9c",
+    "trophies": "3 2 1 2 1 3 3 2 1"
+  },
+  {
+    "solution": "2s 4s as kd 3s",
+    "hands": "ks 8c 5d 5s 4c kc",
+    "trophies": "3 1 2 2 3 1 2 1 3"
+  },
+  {
+    "solution": "5c 2d kh 9h 10h",
+    "hands": "10c 10s 5d 2c ks 9d",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "6h 5h 7h 9h 7s",
+    "hands": "ac ah 7c 9c 6s 5c",
+    "trophies": "2 3 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9h qh 9s jd 10s",
+    "hands": "10c 10h 5s 9c 8d 9d",
+    "trophies": "3 2 1 2 1 1 1 3 2"
+  },
+  {
+    "solution": "qd 9d ad 7h 7s",
+    "hands": "9c qs 7d 7c ah ac",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "7c 3d 9c 3c 5c",
+    "hands": "6c 8c 9h 10h 9d 3s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3d 5d 7d 3s 3c",
+    "hands": "3h 5s 7c 8h 10d jd",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "ad 2s 4d 3d 5d",
+    "hands": "ac 4s qs qd 2d 3s",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "jc 5s 5h 5d jd",
+    "hands": "10c 2s js jh 5c 9c",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kc 2c 5c 9c 9h",
+    "hands": "5h 8c ks kh 2h 9d",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "10s 3c 5s 3d 10h",
+    "hands": "3s 5c 3h 8d 10d jh",
+    "trophies": "1 3 2 1 2 3 2 2 1"
+  },
+  {
+    "solution": "qc 6h 4h 3s 10s",
+    "hands": "10c qh 4d 3h ad 6c",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "3s 5d 4d 3c 3d",
+    "hands": "8c 3h ah 2d ad 5s",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "7d 7c qs 9s js",
+    "hands": "jc 9h 10s ks 6c 7h",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "4d 4s 3d 6d js",
+    "hands": "jc 4c 5h 2s jd 10d",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "7c 8d jc 8s js",
+    "hands": "10h 10d kh 8c jh 7s",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10h ad 5d qs 10d",
+    "hands": "4s ah 5c qc 10s 2c",
+    "trophies": "1 3 2 2 1 3 2 3 1"
+  },
+  {
+    "solution": "9s 9h 10s 8h js",
+    "hands": "jd 5h 7s 8s 8c 9c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kh 3s 6s 2s qs",
+    "hands": "2c 6h qc 3c ks 4c",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "2h 3s 4s 6s 2c",
+    "hands": "jc 5h 3c 2s 10c ah",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "5s 4h 3s 8s 8h",
+    "hands": "10s 10h 5d 8c 2s as",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kd qc 3h 3d js",
+    "hands": "4c ks 10c as 3c 10s",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "6d 6s 8s js 9s",
+    "hands": "6h jc 10s qs 4h 4c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9s qs 10s qc qh",
+    "hands": "5s 2s 10d 9h kd qd",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "9d 10c 7d 10d 6d",
+    "hands": "9c 7h 10s 6h 3c 8d",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "6c ad 9d 8h 10s",
+    "hands": "qd 9s 7h as 8s 8c",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "10c 9s 7d 9h jc",
+    "hands": "8d 6d 8s 8c 10d 9d",
+    "trophies": "1 3 2 2 3 1 2 2 1"
+  },
+  {
+    "solution": "3h 4h 5h 5s ah",
+    "hands": "6h 8d 5c 3c as 2h",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "qd 3h 6d 2c 5d",
+    "hands": "4h 7s 3s 2h 10c qc",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7h 8d 6d kd 9d",
+    "hands": "7d 6h kh kc 10s 6s",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "4d 9s qs 4c as",
+    "hands": "qc 3s 9c ad js 4h",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "6h 3d 5s 3h 5d",
+    "hands": "3s 5h 3c 9s 4d 2d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "jh 10s 7c 7h 9h",
+    "hands": "8s as 8h 10h 3h 7s",
+    "trophies": "3 1 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "10d 9d qd 2s 2d",
+    "hands": "2c 10h ac ad kc jd",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7d 5d 8d 9d 8c",
+    "hands": "6c 5h 8s 8h 10d qs",
+    "trophies": "2 1 3 2 3 1 3 1 2"
+  },
+  {
+    "solution": "ad 6c 9d 8d 7d",
+    "hands": "2c 2d 8h 6h 10c as",
+    "trophies": "3 2 1 3 1 2 1 3 2"
+  },
+  {
+    "solution": "2h 4h 6c 10h 10c",
+    "hands": "10d 6d ad as 5h 3h",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "qd 8d 10d qc jd",
+    "hands": "9d js 8c qs 4d ah",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "8s 5h 8h js 6s",
+    "hands": "jc jh 7h 9c 4c 8c",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "js 3s 10s jh 10d",
+    "hands": "qh jd 8s ks 3c 10h",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "3s 3h 8c 5d 3d",
+    "hands": "3c 8h 4s 7d 5c 5s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "8h 7h 4d 9h 5h",
+    "hands": "jc 10h 5s 6h 5d as",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "kh 10d 10h js ad",
+    "hands": "5h 8c qd ah ac 10s",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "qc 7c 7h qh qd",
+    "hands": "3d 6h 8h qs 9s 7d",
+    "trophies": "3 2 1 3 1 2 2 1 2"
+  },
+  {
+    "solution": "9d 3s 8h 4h qd",
+    "hands": "4c 3d jh 3h jd 10h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9s 2d 2s 4s 5s",
+    "hands": "9d qh 2h 4c as 3s",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "kc 10c 3h 5s 7c",
+    "hands": "5c 3c 7s 7h kd 10h",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7c 8d kh 7s 8h",
+    "hands": "7d 6d kd 8s 6c 10h",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6c 4h 8s 9d 10d",
+    "hands": "4s 8h 2c kd 9c 7c",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "4c 2c 2d 4s 2s",
+    "hands": "2h ks 8h qh 10s 4d",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "js qh 10s qs ks",
+    "hands": "ad as 3d qc ac 4h",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "6d 4d 5s 6c 8h",
+    "hands": "6h 6s 8s 8c 3h 2c",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5s 8d 6h 4c ks",
+    "hands": "8h 5c 7d 5h 8s kh",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "5h 8s 7c 6d kh",
+    "hands": "4s 2c ad kd 10h 8c",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "4h 2h 5s 3h 5h",
+    "hands": "ad ah 5d 4c qc 6d",
+    "trophies": "2 1 3 2 3 1 1 2 3"
+  },
+  {
+    "solution": "ah 4d 3c 5c 5s",
+    "hands": "5d 5h 4s 2h qs 6d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "js kd ks 3h kh",
+    "hands": "7s kc 3s jd 3c 3d",
+    "trophies": "1 2 3 2 3 1 1 2 3"
+  },
+  {
+    "solution": "3s 6c 4s 10h 10d",
+    "hands": "4c 6s 2c 5d 10s 6h",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8c 5s 7c 5d ad",
+    "hands": "5h 8h 6h 9s ac ah",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "7s 6d 10h 5c 5h",
+    "hands": "4c 3d 6h 10d 5s 5d",
+    "trophies": "3 1 2 1 3 2 2 3 1"
+  },
+  {
+    "solution": "ad kd qs ah 5d",
+    "hands": "5s 5h 10s jd kc ac",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "6d 9d 8d 5h 9h",
+    "hands": "6h 9c 2d 10d 7s 7c",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "4s 6h 5s ad 2s",
+    "hands": "ac 3d qh qs js 6s",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9h 8s 3d jd jh",
+    "hands": "9c 9d 3s js 8h 10s",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "jh qh 2h 5h 2d",
+    "hands": "jd 2s 5s 5c qc ah",
+    "trophies": "1 3 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "7h 6h 3h 7c 4h",
+    "hands": "3d 7s kc 10d 5h 10h",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "7s 7d js 8s 9s",
+    "hands": "8h 8d ac 7c 9c 10s",
+    "trophies": "2 1 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "5h 3s 8h 3c ks",
+    "hands": "3d jc 5d 8d kc qs",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "8s 2h 5s 7h 6s",
+    "hands": "7s 3s 4c 4h 2c 5d",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "3d 5s 8d 4s 4d",
+    "hands": "js 8c 8h 4h 3s 5c",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5d 5h 4d 6c 8s",
+    "hands": "8h 5c 3d 2h qc 6d",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "5c 2c 3s qc qd",
+    "hands": "5h qs 4d ad kc ac",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4s jc 4c ks jd",
+    "hands": "4d 8s qh qd js kh",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8h 9c 9s 9d ks",
+    "hands": "kc 6h 4c 9h 8d 8c",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "8h qd 8d 10d qs",
+    "hands": "5d 7d 8s 10h qh 3d",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3s 6s 5s 3d 2s",
+    "hands": "kh 2d 3h 6d 4s 7h",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "kd 10c kh js qc",
+    "hands": "qd 9c as ah 2c kc",
+    "trophies": "3 2 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "5h 5s 2d 9c 5d",
+    "hands": "8s 8h 2c 2h 9d 5c",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "5s 6c 6s 3s 7s",
+    "hands": "6d 5d qh 4s 3h qd",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "10c 7s 9c js qc",
+    "hands": "kh ks 9d 7c 8d 4h",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9c jd qd 6s 9s",
+    "hands": "9d js qs 6c 4c 4d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10d kh 8h 3d 6c",
+    "hands": "3s 3h 10h 8d 6s ks",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "qh 6d 5h 6s kc",
+    "hands": "kd 7c 6c 5d qc 5s",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "6s 2h 4h 2s 6d",
+    "hands": "10s 6h 2d 2c 5c 3c",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "9c 7h 5h 9h 8h",
+    "hands": "kd 9s 5d 7d 6h 6s",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "5h 8d 2s 4c 4s",
+    "hands": "2d 5d 4d 4h 6h 8s",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "7c 6h 4c 10d 9d",
+    "hands": "4s 4d 8c 6c jd 10h",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 5c 7s 5h 5s",
+    "hands": "8s 5d 6s 9s 4h 4d",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "9s 7h 6h 6c 8c",
+    "hands": "ah 10h qh 6s 7d 9h",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7s 4s 3h 10d 3s",
+    "hands": "10c 3d 10s 7d ac 4h",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "6h 5d 3h 10s 10d",
+    "hands": "5c 5h 7c 4h 10h 10c",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "6c 7h 5d 7s 6s",
+    "hands": "9s 8h 8s 7c 6d 5c",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "10c 5d 7h 10s kd",
+    "hands": "kh ks 5s 7d 10h 5c",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6d 4d 5d 5h qd",
+    "hands": "qh qc 3c 2d 5c 4h",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "3h 3c 6d 5d 8d",
+    "hands": "4d 7d 4c ac 6s 3s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3s kh 8c qh qc",
+    "hands": "qd qs 8s 3c ks 4c",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "9s 7s jh kd 9c",
+    "hands": "as 9h ks 10c jd 7c",
+    "trophies": "2 3 1 3 2 1 1 2 3"
+  },
+  {
+    "solution": "qd 10d 8d 3h js",
+    "hands": "9h 9c 8h 3s qc as",
+    "trophies": "2 3 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "10c jd 10s qc 10d",
+    "hands": "kh 9h qs qd 10h 2h",
+    "trophies": "3 2 1 2 1 3 3 2 1"
+  },
+  {
+    "solution": "js 3c 3d qc ad",
+    "hands": "kd 10d 4d 3s 8c qh",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "4c 2s 3s 7h 5d",
+    "hands": "2h 3h 9h 3d 6h 7d",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "9c 10d 3d ad 3s",
+    "hands": "7d jd 3c 10c ah 9d",
+    "trophies": "3 1 2 1 3 2 2 1 3"
+  },
+  {
+    "solution": "9h 8d 6d 4s 7d",
+    "hands": "9d 5d 8s 4h 5s qh",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "10s js 2h 9s 8s",
+    "hands": "7s 7c 2c 10d 6c 9h",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "qc 8c ac 8h qd",
+    "hands": "9c 3c qh 3h 8s ah",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "ah 3d ad 5d 2d",
+    "hands": "3h ac 4s 4d 5s 8s",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "ad 10d qd 6h 6c",
+    "hands": "10s 6d jd kh jh js",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "9c 3h 5d qs 10h",
+    "hands": "9d 6c qc 3d 10s 5c",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "2c kh 9d 2s 10h",
+    "hands": "ks qd 2d 4d qh js",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "7c 3c 2d ac 4d",
+    "hands": "as 10s 7s 5d 4c 2c",
+    "trophies": "3 1 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "2c 5h 7d 5s 2s",
+    "hands": "7s 2d 9c 9d 5d 8c",
+    "trophies": "1 2 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "4h 6c 7d 4c 4s",
+    "hands": "5s 8s 4d 7h 6d jd",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "5d js 6c 2c 4s",
+    "hands": "5s 2d 3c 3s ac jd",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 7c 6d 4h 10h",
+    "hands": "jc 5s 10s 10d 8d 6h",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7c 8c 4h 4d 8h",
+    "hands": "10c 4s 8d 6d 7d ks",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4c 4s 6d 6c 4h",
+    "hands": "6h 7s 5h 4d 10h 9d",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6c 4h qd jh 4c",
+    "hands": "qh jc jd 4s 6s 8s",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "7s 3h 6s 3s 4s",
+    "hands": "10h 6d 5d jh ks 3c",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "7s 9s 5s 6c 8s",
+    "hands": "6s kd 9h jc 4s 5c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "7h 5h qh qd 5s",
+    "hands": "ah 9h 3s qs 7d 5c",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "as 3h jh 2d 6c",
+    "hands": "3c jc 6d 6h ad 2h",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "5d 7d 9s jh 8c",
+    "hands": "2d 6s js jd 9d 7s",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "qs qd 2d 2c 2h",
+    "hands": "9s 9d qh 3d js 2s",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10c 8c jd 9c qc",
+    "hands": "6d qs jc 10s kc 2c",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9c qd js jh kc",
+    "hands": "9s kh qh 5h ac jc",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "qd 4s ah 4h qs",
+    "hands": "9d 7c 4d 8d qh ac",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "6c 6h 5c 8c 6s",
+    "hands": "7d 2s 3d 6d 9c 7h",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6d 3h 2h 4h 5d",
+    "hands": "7s 10c 4d 5s jh ah",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "5s 6h 5d 8h 2d",
+    "hands": "8s 9h 5c 2h 7c 9s",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "2c 2s as 5s 4s",
+    "hands": "3s 5d 2d jh 3c 3h",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "2s 5s 4d jd 3h",
+    "hands": "2c 6c 6d jc jh ad",
+    "trophies": "1 3 2 3 2 1 1 1 2"
+  },
+  {
+    "solution": "qh 10h 4h qs qd",
+    "hands": "10s 4c qc ac 2h 5h",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "5d 4h as 2h 5s",
+    "hands": "4s 5c 4d 8h ks 3c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "10d 6d 6h ks 10s",
+    "hands": "5s 10c 5c kd 6c 2c",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "8s 4s 7c qs 9s",
+    "hands": "qh 2s 8h 7h 4d 9d",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "10d 10h 7h 9h 8h",
+    "hands": "8d 6h 6s 7s 3d 10s",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7d 8c js jd jh",
+    "hands": "8d 7s 9d 10s jc kd",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "9c js 4h 8h 4d",
+    "hands": "jc 8c 9s ks 9h 4s",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "7d 5d 9d 6c 8d",
+    "hands": "4d kd 10c 8c ah 6d",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9d jd jh as js",
+    "hands": "ah ad 9s jc 8c 7h",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6h qd kc ac jc",
+    "hands": "10c 6c ad 10h ks kd",
+    "trophies": "2 3 1 3 2 1 1 2 3"
+  },
+  {
+    "solution": "6c qc 7c 7d 7s",
+    "hands": "10h 6h 2c 4c 7h qd",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "8s jc 2d js qs",
+    "hands": "8d 2s 9s 10s jh kd",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9s qc 10s js 9d",
+    "hands": "9h 10d ad ah ks 8d",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "9d 7h 2s 10d 8h",
+    "hands": "5s 10c 3h 2c 7c 6h",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8c js as 10s 7s",
+    "hands": "ad jh 9d 9h 8s 10h",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "9s qh 8s js qs",
+    "hands": "8h jh qc as 10s 10h",
+    "trophies": "3 1 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "2c 5s ac 2h 6h",
+    "hands": "ks 5d 2d 6d 3d 4c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "js qs 9s 5d 5h",
+    "hands": "jc 9d 3d qd 5c 5s",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "4d ad 5d 5s 6d",
+    "hands": "2h 3s kh kd 5h 2d",
+    "trophies": "1 2 3 1 3 2 3 1 2"
+  },
+  {
+    "solution": "4d 10s 9h qh as",
+    "hands": "ad 10d qs qd 9c 4c",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "7h qd 7d qh ah",
+    "hands": "qs as qc 4h 10c 7s",
+    "trophies": "2 3 1 1 1 2 1 2 3"
+  },
+  {
+    "solution": "5h 6d 4c 4s 4h",
+    "hands": "4d 9c 5s ad 7h 8d",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "2h 5h 7s 4h 6d",
+    "hands": "2c 5d 3h 3s ah 7h",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "2h 2c 4c 6c 3c",
+    "hands": "2s 6h 2d 9h kd 5c",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "8s js 9d 7d 9h",
+    "hands": "6d 9s jh qc 2s 10c",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "10d jd kh qd 8d",
+    "hands": "ah 4h 9d 10s jh js",
+    "trophies": "3 2 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9h 2s kh ah 8h",
+    "hands": "8c kd 6h as 9s 2c",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "3d 7h 4h 2h 2d",
+    "hands": "2c 2s 5h 6c ah 7s",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "6c 6s 5c kh kd",
+    "hands": "4h 5d ks 8h 10c 6d",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "7h 4s 6h 8s 4c",
+    "hands": "9c kd 7d 7c 5h 4h",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "8s 10c 10h 10s kc",
+    "hands": "8h 8d 6h 10d 4h kh",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "2c 5c 7h 6c 3c",
+    "hands": "7d qc 6d 6s 4c ad",
+    "trophies": "1 2 3 2 1 3 2 3 1"
+  },
+  {
+    "solution": "8c 7c 4c 6h 6d",
+    "hands": "7d 6c 5d ac kc 2c",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9h 8d 10h 10d 10s",
+    "hands": "10c 9c 2d 2h jd 7c",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "9d 9c 8c 5c 9s",
+    "hands": "9h 4s 7d 6d qc 2c",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4s as 2s kc 3s",
+    "hands": "5c 5s ks 8d 4d kd",
+    "trophies": "1 3 2 3 2 1 1 2 3"
+  },
+  {
+    "solution": "2d kc 5h 9c 10c",
+    "hands": "10h 10s 9d ks 2h 5d",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "7c 6c 5c 9c 7d",
+    "hands": "as ac 7s 9s 5s 6d",
+    "trophies": "2 3 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "qs 9c 9s jd 10c",
+    "hands": "10s 10h 9h 5c 9d 8d",
+    "trophies": "3 2 1 2 1 1 1 3 2"
+  },
+  {
+    "solution": "ah 9h qh 7s 7c",
+    "hands": "qc 9d as ad 7h 7d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "9s 7s 3c 3s 5s",
+    "hands": "8s 6s 3h 9c 10d 9d",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "3d 7d 5d 3h 3c",
+    "hands": "10d jd 3s 5h 8s 7c",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "2d 4c ac 3c 5c",
+    "hands": "4d ah 2c 3d qd qc",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "5s jh 5c 5d jd",
+    "hands": "2s 10h 5h 9h js jc",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "kh 5h 2h 9h 9c",
+    "hands": "ks kc 2c 9d 5c 8h",
+    "trophies": "1 3 2 2 3 1 1 2 3"
+  },
+  {
+    "solution": "3h 10c 5c 3s 10d",
+    "hands": "8s 3d 10s jd 3c 5h",
+    "trophies": "3 2 1 2 3 1 2 1 2"
+  },
+  {
+    "solution": "6d 4d qc 3s 10s",
+    "hands": "6c ah qd 10c 4h 3d",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "4d 5d 3c 3h 3d",
+    "hands": "ad 5c as 2d 8h 3s",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "7d 7c qs 9s js",
+    "hands": "jd 9h 6d 7h 10s ks",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3d 4d 4c 6d jc",
+    "hands": "jh 4h 5s 2c 10d jd",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "jh 8c 7h 8d jd",
+    "hands": "js 7d ks 8h 10c 10s",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10h 5s as qd 10s",
+    "hands": "4d ah qc 5c 2c 10d",
+    "trophies": "1 3 2 2 1 3 2 3 1"
+  },
+  {
+    "solution": "10s 9c 9s 8c js",
+    "hands": "9h 8h 8s 7s jd 5c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6c 3c ks 2c qc",
+    "hands": "kc 4h qh 3h 2h 6s",
+    "trophies": "1 3 2 2 3 1 1 2 3"
+  },
+  {
+    "solution": "3c 2h 4c 6c 2d",
+    "hands": "2c 3d ah 10d 5h jd",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3c 5c 4d 8c 8d",
+    "hands": "ac 2c 10d 10c 5s 8h",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "qh 3d kc 3c js",
+    "hands": "4h ks 3h 10s as 10h",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "6s 8s 6h js 9s",
+    "hands": "6d jc 4c 4d qs 10s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10s 9s qs qh qd",
+    "hands": "5s 2s 9d 10c kc qc",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "9s 10h 7s 10s 6s",
+    "hands": "10c 6d 7d 9h 8s 3h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9h ah 6c 8d 10s",
+    "hands": "qh 9s 7d as 8c 8s",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "10h 9s 7c 9d jh",
+    "hands": "10c 9c 8s 8h 8c 6c",
+    "trophies": "2 3 1 1 3 2 1 2 2"
+  },
+  {
+    "solution": "5d 3d 4d 5h ad",
+    "hands": "3s 5s 8c 6d 2d ah",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6d qd 3c 2s 5d",
+    "hands": "qs 10s 7h 4c 2c 3h",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "6s 8s 7d ks 9s",
+    "hands": "kh kd 7s 6d 6c 10c",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "9h 4s qh 4c ah",
+    "hands": "qc 3h 9c as jh 4d",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "6d 3h 5c 3d 5h",
+    "hands": "3s 9c 5d 3c 2h 4h",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "10c 7d jh 7h 9h",
+    "hands": "10h 8h 8c ac 7c 3h",
+    "trophies": "1 3 2 2 3 1 1 2 3"
+  },
+  {
+    "solution": "10d 9d qd 2h 2d",
+    "hands": "ad as ks jd 2s 10c",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "8c 7c 5c 9c 8h",
+    "hands": "10c qd 8d 8s 6h 5s",
+    "trophies": "3 1 2 1 3 2 2 1 3"
+  },
+  {
+    "solution": "9c ac 6s 8c 7c",
+    "hands": "2c 2s 8h 6h ad 10s",
+    "trophies": "3 2 1 3 1 2 1 3 2"
+  },
+  {
+    "solution": "2c 6h 4c 10c 10h",
+    "hands": "3c 5c 10s 6s ad as",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "10s qs 8s qd js",
+    "hands": "8d qc 9s jc 4s ah",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "8s 8d 5d js 6s",
+    "hands": "4h 8h 9h 7d jh jd",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "3h jh 10h js 10d",
+    "hands": "kh 8h qs jd 10s 3c",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "8d 3c 3s 5h 3h",
+    "hands": "8s 3d 5c 5d 7h 4c",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "7h 8h 4s 9h 5h",
+    "hands": "10h jd ac 5s 6h 5c",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "ks 10c 10s jh ac",
+    "hands": "10h ad 8d 5s qc as",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7s 7d qs qd qc",
+    "hands": "6d 3c qh 8d 7c 9h",
+    "trophies": "3 2 1 3 1 2 2 1 2"
+  },
+  {
+    "solution": "3h 8d 9s 4d qs",
+    "hands": "10d js jd 3d 4c 3s",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9c 2d 2c 4c 5c",
+    "hands": "4h 2s 9d qs 3c ac",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "kc 10c 3s 5d 7c",
+    "hands": "7d 7s kh 10s 5c 3c",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "8s 7d kc 7h 8c",
+    "hands": "ks 8h 6d 10c 7s 6s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6s 8h 4d 9c 10c",
+    "hands": "8d 4h kc 2s 7s 9s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "2h 4h 2c 4d 2d",
+    "hands": "8s qs 10d 4c kd 2s",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "qd jc 10c qc kc",
+    "hands": "ah 4d 3s qh as ac",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "5h 4d 6d 6c 8s",
+    "hands": "8c 8h 6h 6s 3s 2c",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5d 6h 8s 4c kd",
+    "hands": "8d kh 7s 5h 8h 5c",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "8d 5s 7c 6h ks",
+    "hands": "4d 2c 8c 10s kh ah",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "4d 2d 5s 3d 5d",
+    "hands": "6c qh 4h 5c ad ac",
+    "trophies": "3 1 2 1 3 2 3 2 1"
+  },
+  {
+    "solution": "ah 3d 4c 5d 5s",
+    "hands": "5h 5c 4s 2h qs 6c",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "kd js ks 3c kc",
+    "hands": "3s jd 7s kh 3h 3d",
+    "trophies": "2 1 3 3 2 1 2 1 3"
+  },
+  {
+    "solution": "4s 3s 6c 10d 10h",
+    "hands": "6d 10s 6s 4c 5h 2c",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "8h 7h 5c 5s as",
+    "hands": "5d 8d 6d 9c ah ad",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "6s 10h 7c 5d 5h",
+    "hands": "10s 6h 5c 5s 4d 3s",
+    "trophies": "1 2 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "as qd ks ah 5s",
+    "hands": "kc ac 10d js 5d 5h",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "6c 8c 9c 5h 9h",
+    "hands": "7s 7d 2c 10c 6h 9d",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "4s 5s 6h ac 2s",
+    "hands": "qs qh js 6s 3c ad",
+    "trophies": "1 2 3 2 3 1 3 1 2"
+  },
+  {
+    "solution": "3s 9c 8h js jc",
+    "hands": "jh 3h 10h 8c 9s 9d",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "qd 2d jd 5d 2s",
+    "hands": "js 2h 5c 5h qc ad",
+    "trophies": "1 3 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "7d 3d 6d 7h 4d",
+    "hands": "5d 10d kh 10s 3s 7c",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7h js 7s 8s 9s",
+    "hands": "8h 8c ad 7d 9d 10s",
+    "trophies": "2 1 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "3c 8d 5d 3h kc",
+    "hands": "3s jh qc kh 8s 5s",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "8d 5d 2s 7s 6d",
+    "hands": "2c 5h 7d 3d 4c 4s",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "5c 8d 3d 4c 4d",
+    "hands": "4h 8h 8s jc 5s 3c",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5h 4d 5d 6c 8s",
+    "hands": "qc 6d 2h 3d 8h 5c",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "3s 2c 5c qc qh",
+    "hands": "4h ah qs 5d kc ac",
+    "trophies": "1 2 3 2 3 1 3 1 2"
+  },
+  {
+    "solution": "4h 4c jh kc js",
+    "hands": "qd qs 8c 4s kd jc",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "9d 8h 9s 9c kd",
+    "hands": "6h ks 4s 9h 8c 8s",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "8s 8h qh 10h qd",
+    "hands": "10s 8d 7h 5h qs 3h",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "5c 3c 6c 3h 2c",
+    "hands": "4c 7s 3s 6h ks 2h",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10h ks kc jd qh",
+    "hands": "2h kh 9h qs ac ad",
+    "trophies": "1 3 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "2h 5c 5d 9s 5h",
+    "hands": "2s 2c 8c 8d 5s 9h",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "6d 5d 6h 3d 7d",
+    "hands": "5c 6c 4d qs 3s qc",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "10s 7h 9s jh qs",
+    "hands": "8c 4d 9c 7s kd kh",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9d qc jc 6s 9s",
+    "hands": "9c js qs 6d 4c 4d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "8c kc 10h 3h 6d",
+    "hands": "ks 6s 3s 3c 8h 10c",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "6h qc 5c 6s kd",
+    "hands": "6d 5h kh 7d 5s qd",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "6h 4c 2c 2h 6s",
+    "hands": "2s 2d 3d 5d 10h 6c",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "7s 9h 5s 9s 8s",
+    "hands": "7d 5d 6c 6s kd 9c",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "2h 5c 8s 4d 4h",
+    "hands": "2s 5s 4s 4c 6c 8h",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "7h 4h 6d 10s 9s",
+    "hands": "js 10d 4s 4c 6h 8h",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "8h 5d 7c 5h 5c",
+    "hands": "9c 6c 4s 4h 5s 8c",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "9c 7h 6h 6s 8s",
+    "hands": "qh 6c 9h 7d 10h ah",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3c 4d 7d 10h 3d",
+    "hands": "3h 10s as 4c 7h 10d",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "5c 6d 3d 10s 10c",
+    "hands": "7h 4d 5d 5h 10d 10h",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "7s 6c 5h 7d 6d",
+    "hands": "8s 9d 8d 7c 5c 6h",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "7s 5h 10d 10c kh",
+    "hands": "7h 5c 5d 10s kc ks",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "6s 5s 4s 5c qs",
+    "hands": "5h 4c qh qc 3h 2s",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "3c 6s 3h 5s 8s",
+    "hands": "ac 4c 7s 4s 6d 3d",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "3s kc 8h qc qh",
+    "hands": "qd qs ks 4h 8s 3h",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7d jc 9d kh 9s",
+    "hands": "7s jh ad 9c kd 10s",
+    "trophies": "1 2 3 1 3 2 3 1 2"
+  },
+  {
+    "solution": "8c qc 10c 3d jh",
+    "hands": "ah qs 9d 9s 8d 3h",
+    "trophies": "1 2 3 2 3 1 3 1 2"
+  },
+  {
+    "solution": "10h 10s jc qs 10c",
+    "hands": "kd 9d 10d 2d qh qc",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "3s jh 3d qs ad",
+    "hands": "8s qc 10d kd 4d 3h",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "2d 4c 3d 7h 5s",
+    "hands": "7s 6h 2h 3h 3s 9h",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10h 9d 3h ah 3c",
+    "hands": "as 9h 7h jh 3d 10d",
+    "trophies": "2 3 1 2 1 3 3 2 1"
+  },
+  {
+    "solution": "9d 6c 8c 4h 7c",
+    "hands": "8h 4d 9c 5c qd 5h",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "10s 2h js 9s 8s",
+    "hands": "9h 6c 7s 7c 2c 10d",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "ah qh 8h 8c qs",
+    "hands": "9h 3h qc 3c ac 8d",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "ah 3c ac 5c 2c",
+    "hands": "as 3h 4d 4c 5d 8d",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "as qs 10s 6c 6h",
+    "hands": "kc js jd jc 6s 10d",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "9d 5h 3c qs 10c",
+    "hands": "6d 9h qd 3h 10s 5d",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "2c 9s kd 2h 10d",
+    "hands": "qd jh 2s 4s kh qs",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "2h 3d 7d ad 4h",
+    "hands": "2d 4d 7s 5h as 10s",
+    "trophies": "2 1 3 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7d 5s 2c 5h 2h",
+    "hands": "9d 9c 8c 5d 7h 2d",
+    "trophies": "2 3 1 2 1 3 3 1 2"
+  },
+  {
+    "solution": "6d 4s 7h 4d 4c",
+    "hands": "4h 7s jh 6h 5c 8c",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "6s jc 5h 2s 4c",
+    "hands": "3c 3s as jh 2h 5c",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "8c 7h 6s 4c 10c",
+    "hands": "jh 5d 8s 6c 10d 10s",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "4s 7h 8h 4c 8s",
+    "hands": "10h 4d 7c kd 6c 8c",
+    "trophies": "3 2 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "4c 4h 6d 6h 4s",
+    "hands": "4d 5s 6s 7c 9d 10s",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "qd 4h 6c jh 4c",
+    "hands": "qh jc 6s 8s 4s jd",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6c 3h 7c 3c 4c",
+    "hands": "10h 6s 5s jh kc 3d",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5c 7c 9c 6d 8c",
+    "hands": "kh 6c 9s jd 5d 4c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "7d 5d qd qs 5h",
+    "hands": "5c 7s qh 3h ad 9d",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "jc 3c ah 2s 6d",
+    "hands": "as 2c 6c 6s 3d jd",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "7h 5h 9c js 8d",
+    "hands": "jc jh 7c 9h 6c 2h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "2s qs qh 2c 2d",
+    "hands": "qd 3s jh 2h 9h 9s",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "10h 8h jd 9h qh",
+    "hands": "jh 10c 2h kh 6d qc",
+    "trophies": "1 2 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "9s qh jd jc ks",
+    "hands": "5c qc kc 9d as js",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "4h ac qs 4c qh",
+    "hands": "qc ad 9s 7d 4s 8s",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6c 6s 5s 8s 6d",
+    "hands": "2d 7h 6h 3h 7c 9s",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "3h 6c 2h 4h 5c",
+    "hands": "5s 4c 10d 7s jh ah",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "5h 6c 5d 8c 2h",
+    "hands": "9d 7s 5s 2c 9c 8d",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "2d ad 2s 5d 4d",
+    "hands": "jh 2c 3s 3h 3d 5c",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "5h 4c 2h jc 3s",
+    "hands": "2d 6d jd 6c js ac",
+    "trophies": "1 3 2 3 2 1 1 1 2"
+  },
+  {
+    "solution": "10d qd 4d qs qh",
+    "hands": "ac qc 10s 4c 5d 2d",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "4d 5s ah 2d 5h",
+    "hands": "4h 5c 4s 8d kh 3c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "10d 6d 6s kc 10c",
+    "hands": "10h 5c 2h 6h 5h kd",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "8h 4h 7d qh 9h",
+    "hands": "8c 7c 9s 4s 2h qc",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "10s 7d 10d 9d 8d",
+    "hands": "7c 6c 3s 10c 8s 6d",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "7c js 8h jc jd",
+    "hands": "10s 9c jh kc 7s 8c",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "jh 4c 9d 8c 4s",
+    "hands": "4h 9c 8d jd kh 9h",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "9s 5s 7s 6d 8s",
+    "hands": "4s ks ac 6s 8d 10d",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "jh js 9s ad jd",
+    "hands": "8c 7h ah as 9d jc",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "qs kh 6c ah jh",
+    "hands": "as 10c 6h 10h ks kd",
+    "trophies": "3 2 1 2 3 1 2 1 3"
+  },
+  {
+    "solution": "7d qd 6d 7c 7s",
+    "hands": "4d 2d 7h qc 6h 10h",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "8c 2s jh jc qc",
+    "hands": "8s 2c 10c 9c jd ks",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9d qh 10d jd 9s",
+    "hands": "ac as 10s 9c kd 8s",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "9d 7h 2s 10d 8h",
+    "hands": "3h 2c 6h 7c 5s 10c",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "as 8h js 10s 7s",
+    "hands": "jd ac 8s 10d 9c 9d",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "9s qc 8s js qs",
+    "hands": "10c 10s 8c jc qd as",
+    "trophies": "2 3 1 1 2 3 1 3 2"
+  },
+  {
+    "solution": "5s ah 2h 2c 6c",
+    "hands": "4h 3d ks 5d 6d 2d",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "jc 9c qc 5s 5h",
+    "hands": "qs 3s 9s jd 5d 5c",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "4s 5s as 5c 6s",
+    "hands": "2s 5d kd ks 3c 2d",
+    "trophies": "3 2 1 2 3 1 2 1 3"
+  },
+  {
+    "solution": "9s 10d 4c qs ad",
+    "hands": "qd qc 10c ac 9h 4h",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "qs 7h 7s qh ah",
+    "hands": "qc 4h 10c 7d ad qd",
+    "trophies": "3 1 2 1 2 1 2 3 1"
+  },
+  {
+    "solution": "4c 5s 6h 4d 4s",
+    "hands": "7s 8h 5d ah 4h 9c",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "5s 2s 7c 4s 6d",
+    "hands": "7s as 3s 3c 2h 5d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "4s 2s 2d 6s 3s",
+    "hands": "kh 5s 9d 2h 2c 6d",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9c 8d jd 7c 9h",
+    "hands": "2d 10s qs jh 6c 9d",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "kc 10s js qs 8s",
+    "hands": "9s 10d ac 4c jd jc",
+    "trophies": "2 3 1 2 1 3 1 2 3"
+  },
+  {
+    "solution": "9c 2d kc ac 8c",
+    "hands": "ks 8h 2h 9d 6c ad",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "7d 4d 3h 2d 2h",
+    "hands": "7c ad 2s 2c 5d 6s",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5c 6c 6s kh kd",
+    "hands": "5d 4h ks 8h 10c 6d",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6c 4h 7c 8h 4s",
+    "hands": "kd 9s 4c 5c 7d 7s",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10c 8h 10s 10h kc",
+    "hands": "6s 10d ks 4s 8s 8d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7h 5s 2s 6s 3s",
+    "hands": "6d 6c qs 7c 4s ac",
+    "trophies": "2 1 3 1 2 3 3 2 1"
+  },
+  {
+    "solution": "7h 8h 4h 6c 6s",
+    "hands": "7s 6h kh 2h ah 5s",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "8h 9d 10d 10h 10s",
+    "hands": "7c jh 2h 2d 10c 9c",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "9h 8d 9d 5d 9c",
+    "hands": "6h 7h 4c 9s 2d qd",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "2h 4h ah ks 3h",
+    "hands": "8d kh 5s 5h kd 4d",
+    "trophies": "3 1 2 2 3 1 2 1 3"
+  },
+  {
+    "solution": "5s 2c kd 9d 10d",
+    "hands": "10s 10h 5c 2s kh 9c",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "6s 7s 5s 9s 7d",
+    "hands": "5c 6d ac as 9c 7c",
+    "trophies": "1 2 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "9h qh 9d js 10d",
+    "hands": "9s 8s 5d 9c 10c 10h",
+    "trophies": "1 2 3 1 1 2 2 3 1"
+  },
+  {
+    "solution": "qc 9c ac 7s 7d",
+    "hands": "ah as qd 9h 7c 7h",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "9c 3s 7c 3c 5c",
+    "hands": "9h 10h 3d 9s 6c 8c",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "5d 7d 3d 3s 3h",
+    "hands": "10d jd 5s 3c 8c 7h",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "ah 4h 2d 3h 5h",
+    "hands": "3d 2h qh qd 4d as",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "jd 5c 5h 5s js",
+    "hands": "10d 2h 5d 9d jc jh",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "ks 2s 5s 9s 9c",
+    "hands": "kh kc 8s 5c 9d 2c",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "10h 3s 5h 3d 10c",
+    "hands": "10d jc 8d 3c 3h 5s",
+    "trophies": "2 3 1 3 2 1 1 2 2"
+  },
+  {
+    "solution": "4s 6s qh 3c 10c",
+    "hands": "10h qs 6h ad 3s 4d",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3c 5h 4h 3s 3h",
+    "hands": "2h ad 3d 8s ah 5c",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "7h qd 7s 9d jd",
+    "hands": "6s 7c 9c js 10d kd",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "4c 3d 4d 6d jc",
+    "hands": "2c 5s jh 4h jd 10d",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "7d jd 8h 8c jc",
+    "hands": "js 7c ks 8d 10s 10h",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10h as 5s qd 10s",
+    "hands": "2c 10d qc 5c ah 4d",
+    "trophies": "2 3 1 3 1 2 1 3 2"
+  },
+  {
+    "solution": "9d 10d 9c 8c jd",
+    "hands": "7d 8d jh 5c 9s 8s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6d 3d kc 2d qd",
+    "hands": "4h kd 2h 6c qh 3h",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "3s 2h 4s 6s 2c",
+    "hands": "2s 3c 5h jc ah 10c",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "5s 4h 3s 8s 8h",
+    "hands": "8c 5d 10s 10h 2s as",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "ks 3h qc 3s jd",
+    "hands": "10c ad 10d 3c 4c kd",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "6c 6h 8h jh 9h",
+    "hands": "4d 4s 10h qh jd 6s",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "10h 9h qh qs qd",
+    "hands": "qc kc 5h 2h 9d 10c",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "7h 10c 9h 10h 6h",
+    "hands": "9c 7s 6s 10d 8h 3c",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "6s 9h ah 8d 10c",
+    "hands": "9c qh 7d ac 8s 8c",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "9d 10s 7c 9h js",
+    "hands": "8s 8d 6c 8c 9c 10c",
+    "trophies": "3 1 2 3 2 1 2 2 1"
+  },
+  {
+    "solution": "3s 5s 4s 5d as",
+    "hands": "ad 2s 6s 8h 5c 3c",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "3s 6d qd 2h 5d",
+    "hands": "3c 2s 4s 7c 10h qh",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "6c 8c 7d kc 9c",
+    "hands": "6h 10h ks kd 6d 7c",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "qc 4h 9c 4s ac",
+    "hands": "ah 9s jc 4d qs 3c",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5c 3h 6s 3s 5h",
+    "hands": "4h 2h 5s 3c 9c 3d",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "10s 7d jc 7c 9c",
+    "hands": "3c 7s 8c 10c 8s as",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "qs 10s 9s 2h 2s",
+    "hands": "as ad kd js 10c 2d",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "7s 8s 5s 9s 8c",
+    "hands": "5d 6c 8d 8h qh 10s",
+    "trophies": "2 1 3 2 3 1 3 1 2"
+  },
+  {
+    "solution": "9c 6d ac 8c 7c",
+    "hands": "2c 2d as 10d 8h 6h",
+    "trophies": "3 1 2 3 2 1 1 2 3"
+  },
+  {
+    "solution": "2s 6c 4s 10s 10c",
+    "hands": "5s 3s ad ah 10h 6h",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8d 10d qd qc jd",
+    "hands": "qh 8c jh 9d 4d as",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "5d 8h 8d jh 6h",
+    "hands": "8c 4c jc jd 9c 7d",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "jd 3d 10d js 10c",
+    "hands": "3h 10s 8d kd jc qs",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3h 3d 8s 5c 3c",
+    "hands": "3s 8h 4d 7c 5s 5d",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "4d 8h 7h 9h 5h",
+    "hands": "5c 6h 5d ac js 10h",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "kd 10h 10d js ah",
+    "hands": "qh ad ac 10s 8c 5d",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "qc 7h 7c qh qd",
+    "hands": "7d 9s 8h qs 3d 6h",
+    "trophies": "1 2 3 2 1 3 2 1 2"
+  },
+  {
+    "solution": "9s 3c 8d 4d qs",
+    "hands": "3s 4h 10d js jd 3d",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "2d 9s 2s 4s 5s",
+    "hands": "3s as 2c 4h 9d qc",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "3s kd 10d 5c 7d",
+    "hands": "3d 5d 7c 7s 10s kh",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7s kc 8h 7d 8c",
+    "hands": "6h 7h kh 8d 6s 10c",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4d 6s 8c 9h 10h",
+    "hands": "4c 8d 2s kh 9s 7s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "2c 2d 4d 4h 2h",
+    "hands": "qs 8s 2s kh 10h 4c",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "qh jc 10c qc kc",
+    "hands": "qd 3s 4h ad ac as",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "4h 6h 5s 6c 8d",
+    "hands": "8c 8s 6s 6d 2c 3d",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "8s 6c 5h 4d kh",
+    "hands": "7s 5c 5d 8c 8h kc",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "8h 5d 7s 6c kd",
+    "hands": "2s 4h ac kc 10d 8s",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5c 2h 4h 3h 5h",
+    "hands": "5s 4d 6s qd as ah",
+    "trophies": "1 3 2 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3c 4h ad 5c 5s",
+    "hands": "4s 2d 6h qs 5h 5d",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "kh kc jh 3d kd",
+    "hands": "ks 7h 3h jc 3c 3s",
+    "trophies": "1 2 3 2 3 1 1 2 3"
+  },
+  {
+    "solution": "6s 3h 4h 10c 10d",
+    "hands": "5d 2s 6h 4s 10h 6c",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "8d 5c 7d 5h ah",
+    "hands": "ad as 9c 6s 8s 5s",
+    "trophies": "3 1 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "7s 10d 6h 5c 5d",
+    "hands": "4c 3h 5h 5s 10h 6d",
+    "trophies": "3 2 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "as qd ks ah 5s",
+    "hands": "5h 5d js 10d kc ac",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "9h 6h 8h 5d 9d",
+    "hands": "6d 9s 2h 10h 7c 7s",
+    "trophies": "2 1 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "4c 5c 6s ah 2c",
+    "hands": "6c jc qs qc ad 3h",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "8d 3c 9h jc jh",
+    "hands": "10d 8h 9c 9s 3d jd",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "qs 2s js 5s 2h",
+    "hands": "jh 2c as qd 5c 5d",
+    "trophies": "1 2 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "7d 6d 3d 7c 4d",
+    "hands": "10d 5d 7h 3s kc 10s",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "7s js 7c 8s 9s",
+    "hands": "9d 10s 8c 8h 7d ad",
+    "trophies": "3 2 1 2 1 3 1 2 3"
+  },
+  {
+    "solution": "3d 8c 5c 3h kd",
+    "hands": "jh 3s 8s 5s kh qd",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "2s 8d 5d 7s 6d",
+    "hands": "7d 3d 4s 4h 5c 2h",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "5h 8c 3c 4h 4c",
+    "hands": "3h 5d 4s 8s 8d jh",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "4s 5s 5d 6h 8c",
+    "hands": "6s qh 8d 5h 2d 3s",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "3d 5s 2s qs qh",
+    "hands": "ah 4h as ks 5c qd",
+    "trophies": "1 3 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "4h 4d jh kd jc",
+    "hands": "4c 8d ks jd qs qc",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "8d 9h 9s 9c ks",
+    "hands": "4h 9d kh 6d 8c 8h",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "qh 8h 8d 10h qs",
+    "hands": "5h 7h 8s 10d 3h qd",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3s 6s 5s 3d 2s",
+    "hands": "kc 2d 7c 4s 3c 6d",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kh 10d kc js qd",
+    "hands": "ac as kd 2d qh 9d",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "5h 5s 2d 9c 5d",
+    "hands": "8h 8s 2h 2c 9d 5c",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "5h 6h 6s 3h 7h",
+    "hands": "qc 3d 4h qd 5c 6c",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "10h 9h 7d jd qh",
+    "hands": "9c 7h 8c 4s kd ks",
+    "trophies": "1 3 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "qs 9d js 6c 9c",
+    "hands": "qc 6d 4d 4s 9s jc",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10h kc 8c 3h 6d",
+    "hands": "ks 6s 3s 3c 8h 10c",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "6s qd 5d 6c kh",
+    "hands": "7h ks qh 5c 5s 6h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2h 6c 4h 2c 6s",
+    "hands": "6h 10c 2d 2s 3d 5d",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "7c 9d 5c 9c 8c",
+    "hands": "9s kh 6c 6s 7h 5h",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "2h 8c 5s 4d 4h",
+    "hands": "2c 5c 8h 6s 4c 4s",
+    "trophies": "1 2 3 2 3 1 3 2 1"
+  },
+  {
+    "solution": "6h 7s 4s 10d 9d",
+    "hands": "10h jd 4c 4d 6s 8s",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "7d 8c 5s 5c 5d",
+    "hands": "5h 8d 6d 9d 4c 4h",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "9c 7h 6h 6d 8d",
+    "hands": "6c qh 7s 9h 10h ah",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3s 4d 7d 10h 3d",
+    "hands": "ac 4s 7h 10d 10c 3h",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "5c 6s 3s 10h 10c",
+    "hands": "10s 10d 5s 5d 7d 4s",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "6d 7s 5h 7c 6c",
+    "hands": "8s 9c 6h 5d 7d 8c",
+    "trophies": "1 2 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "7d 10s 5c 10h kc",
+    "hands": "10d 5s kd kh 5h 7c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4h 5h 6h 5d qh",
+    "hands": "4d 5s qd qs 3s 2h",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "6h 3s 3d 5h 8h",
+    "hands": "4s as 7h 4h 3c 6c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kc 3d 8s qc qs",
+    "hands": "qd qh 8d 3s kd 4s",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "9c 7c js kh 9d",
+    "hands": "7d jh 9s ac kc 10d",
+    "trophies": "1 2 3 1 3 2 3 1 2"
+  },
+  {
+    "solution": "10s 8s qs 3d jc",
+    "hands": "9h 9d 3c 8d ac qh",
+    "trophies": "2 3 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "jc 10h 10s qh 10c",
+    "hands": "9d kd 2d 10d qc qs",
+    "trophies": "3 1 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "3c jh 3s qc as",
+    "hands": "8c qd ks 10s 3h 4s",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "4d 2h 3h 7s 5c",
+    "hands": "7c 6s 9s 3c 2s 3s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "9s 3d 10d ad 3h",
+    "hands": "10s 3s 7d jd ac 9d",
+    "trophies": "1 3 2 3 1 2 1 2 3"
+  },
+  {
+    "solution": "8s 6s 9h 4d 7s",
+    "hands": "qh 5d 8d 4h 5s 9s",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "jd 2s 10d 9d 8d",
+    "hands": "6h 9s 7h 7d 10c 2h",
+    "trophies": "3 2 1 2 3 1 3 1 2"
+  },
+  {
+    "solution": "qc ac 8c 8h qs",
+    "hands": "8d ah 9c 3c qh 3h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "ac 3h ah 5h 2h",
+    "hands": "ad 3c 5s 8s 4s 4h",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "10s as qs 6h 6c",
+    "hands": "jh jd 6s 10d js kh",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "5c 9s 3d qh 10d",
+    "hands": "3c qs 10h 5s 9c 6s",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "kh 9c 2d 2s 10h",
+    "hands": "4c 2c qh js qc ks",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "7c 3c 2h ac 4h",
+    "hands": "4c 2c 7s 5h as 10s",
+    "trophies": "2 1 3 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7s 5h 2d 5c 2c",
+    "hands": "5s 8d 9d 9s 7c 2s",
+    "trophies": "3 2 1 1 2 3 1 3 2"
+  },
+  {
+    "solution": "4d 7h 6c 4c 4s",
+    "hands": "5s 8s 4h 7d jh 6h",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "6h 5s jd 2h 4d",
+    "hands": "5d 2s ah js 3d 3h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "6h 8d 7s 4d 10d",
+    "hands": "5c js 10c 10h 6d 8h",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7s 4c 8s 4d 8c",
+    "hands": "kh 7d 4h 10s 8d 6d",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4d 4s 6h 6d 4c",
+    "hands": "9h 10c 5c 4h 7s 6c",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "qh 6c 4d jd 4c",
+    "hands": "6s 8s jh 4s jc qd",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "6c 7c 3h 3c 4c",
+    "hands": "5d jh kc 3s 6d 10h",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5d 9d 7d 6h 8d",
+    "hands": "4d 5h 9c jh 6d ks",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "7h qh 5h qs 5c",
+    "hands": "3c qc 5d 7s ah 9h",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "ad js 3s 2h 6c",
+    "hands": "ah 2s 3c jc 6s 6h",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "9s 5d 7d jh 8c",
+    "hands": "js jd 2d 6s 7s 9d",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "qc 2c qh 2d 2s",
+    "hands": "9c 9h qs 3c 2h jh",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "10d 8d jh 9d qd",
+    "hands": "10c jd qc 6h kd 2d",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "9d js qh jc kd",
+    "hands": "kc 9s jd ad 5c qc",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "4d qs ah 4h qd",
+    "hands": "8s 4s 7c 9s ac qh",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6c 6s 5c 8c 6d",
+    "hands": "6h 3h 7s 9c 7h 2d",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "6d 3h 2h 4h 5d",
+    "hands": "jh ah 10c 7s 5s 4d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "6d 5s 5c 8d 2s",
+    "hands": "5h 2d 8c 9d 7h 9c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "2s ac 2c 5c 4c",
+    "hands": "5d 3c jh 2d 3h 3s",
+    "trophies": "3 1 2 2 1 3 1 3 2"
+  },
+  {
+    "solution": "5s 2s 4h jh 3c",
+    "hands": "jd 6h ah jc 2d 6d",
+    "trophies": "3 2 1 2 1 3 1 2 1"
+  },
+  {
+    "solution": "4s 10s qs qh qc",
+    "hands": "2s 5s ad qd 10h 4d",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "5h 4d as 2d 5s",
+    "hands": "5c 4s 8d 4h 3c ks",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6s 6d 10d kc 10c",
+    "hands": "5c 10h 5h kd 6h 2h",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "4d 8d 7h qd 9d",
+    "hands": "4s 9s 7c 8c 2d qc",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "10c 10h 7h 9h 8h",
+    "hands": "8c 6h 7s 6s 3c 10s",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "8s jd 7c jc jh",
+    "hands": "9c 10d js kc 8c 7d",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "jc 9h 4d 8d 4s",
+    "hands": "jh 8h 9c kc 9d 4c",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "7d 9d 5d 6c 8d",
+    "hands": "6d as 10c 8c 4d kd",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "jh 9h js ad jd",
+    "hands": "ah as 7s 8c jc 9d",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "6s qh kc ac jc",
+    "hands": "10c 6c 10s ah kd kh",
+    "trophies": "2 3 1 3 2 1 1 2 3"
+  },
+  {
+    "solution": "qs 6s 7s 7h 7d",
+    "hands": "7c qh 2s 4s 6c 10c",
+    "trophies": "2 1 3 1 2 3 1 3 2"
+  },
+  {
+    "solution": "2c 8h js jh qh",
+    "hands": "8c 2h jd kc 9h 10h",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "qs 10d 9d jd 9c",
+    "hands": "ac ah kd 8c 9h 10c",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "2s 9c 7d 10c 8d",
+    "hands": "2h 3d 10h 5s 6d 7h",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "js as 8d 10s 7s",
+    "hands": "9h 9c 10c 8s jc ah",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "9s qh 8s js qs",
+    "hands": "10s 10h qd as jh 8h",
+    "trophies": "2 1 3 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5s 2h ah 2c 6c",
+    "hands": "ks 5d 2d 6d 3d 4h",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "qc 9c jc 5h 5d",
+    "hands": "3h qh 5s 5c 9h js",
+    "trophies": "2 3 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "ad 4d 5d 5s 6d",
+    "hands": "2d 5h kh kd 3s 2h",
+    "trophies": "3 2 1 2 3 1 2 1 3"
+  },
+  {
+    "solution": "4s 10h 9c qc ah",
+    "hands": "qh qs as 10s 9d 4d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "7s 7d qd qs as",
+    "hands": "ac qc 10h 7c qh 4s",
+    "trophies": "2 1 3 1 2 1 1 3 2"
+  },
+  {
+    "solution": "4d 5c 6h 4s 4c",
+    "hands": "5s ah 4h 9d 8h 7c",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "2h 5h 7c 4h 6s",
+    "hands": "3c 3h 2d 5s ah 7h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "2d 4d 2h 6d 3d",
+    "hands": "9h 2c 6h 2s 5d kc",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "8h 9s jh 7s 9d",
+    "hands": "2h 10c qc jd 9h 6s",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "jd 10d kc qd 8d",
+    "hands": "ac 4c jc js 10s 9d",
+    "trophies": "3 1 2 1 3 2 2 3 1"
+  },
+  {
+    "solution": "2h 9d kd ad 8d",
+    "hands": "6d ah kc 8s 9h 2s",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "7c 4c 3h 2c 2h",
+    "hands": "2s 2d ac 7d 5c 6s",
+    "trophies": "3 2 1 2 3 1 1 3 2"
+  },
+  {
+    "solution": "6c 5c 6s kh kd",
+    "hands": "8h ks 6d 10c 4h 5d",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "7s 4h 6s 8h 4c",
+    "hands": "7c 7d 5s 4s 9c kd",
+    "trophies": "1 2 3 2 1 3 1 2 3"
+  },
+  {
+    "solution": "8s 10c 10h 10s kc",
+    "hands": "8h 8d 6h 10d 4h kh",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "7c 5s 2s 6s 3s",
+    "hands": "qs 7h ah 4s 6d 6h",
+    "trophies": "1 3 2 2 3 1 2 1 3"
+  },
+  {
+    "solution": "4c 7c 8c 6s 6h",
+    "hands": "ac 5h 2c kc 6c 7h",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "9s 10s 8h 10h 10d",
+    "hands": "10c 9c 2h 2s jh 7c",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "9d 9s 8s 5s 9h",
+    "hands": "4h 9c 2s qs 6d 7d",
+    "trophies": "1 2 3 3 1 2 1 2 3"
+  },
+  {
+    "solution": "4h 2h ah kd 3h",
+    "hands": "8c kh 4c kc 5d 5h",
+    "trophies": "3 2 1 2 1 3 2 3 1"
+  },
+  {
+    "solution": "5c kd 2h 9d 10d",
+    "hands": "ks 9h 10c 10s 2c 5h",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "7d 6d 5d 9d 7s",
+    "hands": "ac ad 9c 7c 5c 6s",
+    "trophies": "2 3 1 1 2 3 2 1 3"
+  },
+  {
+    "solution": "qc 9c 9s jh 10s",
+    "hands": "9h 8h 5s 9d 10c 10d",
+    "trophies": "1 2 3 1 1 2 2 3 1"
+  },
+  {
+    "solution": "ah qh 9h 7d 7c",
+    "hands": "qc 9s 7h 7s ad as",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "9h 7h 3c 3h 5h",
+    "hands": "9c 3s 10d 9d 8h 6h",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "5d 7d 3d 3c 3s",
+    "hands": "10d jd 5c 3h 7s 8h",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "2s 4h ah 3h 5h",
+    "hands": "qh qs ac 4s 3s 2h",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "5h jc 5s 5d jd",
+    "hands": "5c 9c js jh 2h 10c",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "2h kh 5h 9h 9c",
+    "hands": "2c 9s 8h 5c kd kc",
+    "trophies": "3 2 1 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3h 10c 5c 3d 10s",
+    "hands": "8d 3s js 10d 5h 3c",
+    "trophies": "3 2 1 2 3 1 2 1 2"
+  },
+  {
+    "solution": "4d 6d qs 3c 10c",
+    "hands": "4h 3d qd 10s ah 6s",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "4s 3c 5s 3h 3s",
+    "hands": "8h 3d as 5c ad 2s",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "qs 7h 7d 9s js",
+    "hands": "10s ks jd 9c 6d 7c",
+    "trophies": "2 3 1 3 2 1 1 3 2"
+  },
+  {
+    "solution": "3d 4h 4d 6d jh",
+    "hands": "4c jc 5s 2h 10d jd",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "7s 8d js 8h jh",
+    "hands": "10c 10d 8s kc 7h jc",
+    "trophies": "2 3 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "5c 10d ac qh 10c",
+    "hands": "ad 4h 5s qs 10h 2s",
+    "trophies": "1 3 2 2 1 3 2 3 1"
+  },
+  {
+    "solution": "9s 9d 10s 8d js",
+    "hands": "jh 5d 7s 8s 8c 9c",
+    "trophies": "2 3 1 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kh 6d 3d 2d qd",
+    "hands": "2c 6h 4c kd qc 3c",
+    "trophies": "2 1 3 1 2 3 3 1 2"
+  },
+  {
+    "solution": "2c 3s 4s 6s 2d",
+    "hands": "jd 5c 3d 2s ac 10d",
+    "trophies": "3 1 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "3s 4h 5s 8s 8h",
+    "hands": "as 2s 10h 10s 5c 8d",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "qd 3c ks 3s jh",
+    "hands": "ah 10d 10h 3d 4d kh",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "6d 6c 8c jc 9c",
+    "hands": "10c qc js 6h 4h 4s",
+    "trophies": "3 1 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "10s qs 9s qh qc",
+    "hands": "9c 10d qd kd 5s 2s",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "10d 7h 9h 10h 6h",
+    "hands": "9d 7c 10s 6c 3d 8h",
+    "trophies": "1 2 3 2 1 3 3 2 1"
+  },
+  {
+    "solution": "ad 9d 6c 8s 10h",
+    "hands": "ah 7s qd 9h 8h 8c",
+    "trophies": "1 2 3 2 3 1 1 3 2"
+  },
+  {
+    "solution": "10d 9c 7h 9s jd",
+    "hands": "8h 6h 9h 10h 8d 8c",
+    "trophies": "1 2 3 2 1 3 2 1 2"
+  },
+  {
+    "solution": "3h 4h 5h 5c ah",
+    "hands": "6h 8d 3s 5s ac 2h",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "3s 6d qd 2h 5d",
+    "hands": "3c 2s 4s 7c 10h qh",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8c 7s 6c kc 9c",
+    "hands": "7c 6s ks kd 6h 10h",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "9d 4s qd 4h ad",
+    "hands": "9h as qh 3d 4c jd",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "5h 6c 3d 3c 5d",
+    "hands": "9h 3s 4d 2d 5c 3h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "jc 7d 10s 7c 9c",
+    "hands": "7s 3c 8s as 10c 8c",
+    "trophies": "2 3 1 1 3 2 3 2 1"
+  },
+  {
+    "solution": "10h qh 9h 2s 2h",
+    "hands": "ah ad 2d 10c jh kd",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "7d 8d 5d 9d 8h",
+    "hands": "8s 8c 10d qs 6h 5c",
+    "trophies": "1 3 2 3 1 2 1 2 3"
+  },
+  {
+    "solution": "6h 9c ac 8c 7c",
+    "hands": "ad 10h 6s 8s 2h 2c",
+    "trophies": "1 2 3 2 1 3 2 3 1"
+  },
+  {
+    "solution": "6h 2c 4c 10c 10h",
+    "hands": "3c 5c as ad 6s 10s",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10d 8d qd qs jd",
+    "hands": "4d ah jc 9d qc 8s",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "8c 8h 5c jh 6h",
+    "hands": "jd jc 7c 9d 8d 4d",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "10d jd 3d jh 10c",
+    "hands": "qh jc 3s 10h kd 8d",
+    "trophies": "3 2 1 2 3 1 1 2 3"
+  },
+  {
+    "solution": "3d 3h 8c 5s 3s",
+    "hands": "5h 5c 4h 7s 8d 3c",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "4c 8s 7s 9s 5s",
+    "hands": "5c ad 6s 5d 10s jh",
+    "trophies": "2 1 3 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kc 10d 10c jh ad",
+    "hands": "qd ac 8s 5c 10h as",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "qh 7h 7c qc qs",
+    "hands": "7s 9d 8c qd 3s 6c",
+    "trophies": "1 2 3 2 1 3 2 1 2"
+  },
+  {
+    "solution": "3c 8d 9s 4d qs",
+    "hands": "js 10d 4h 3s jd 3d",
+    "trophies": "3 2 1 3 1 2 1 2 3"
+  },
+  {
+    "solution": "9c 2s 2c 4c 5c",
+    "hands": "2d 4h 9s qd ac 3c",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "10c kc 3h 5d 7c",
+    "hands": "7h 7d 3c 5c ks 10h",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "8d 7s kh 7c 8h",
+    "hands": "10h 6s 7d 6d kd 8c",
+    "trophies": "3 2 1 3 1 2 3 2 1"
+  },
+  {
+    "solution": "4d 6c 8h 9s 10s",
+    "hands": "8d 4h ks 2c 7c 9c",
+    "trophies": "1 2 3 1 3 2 2 3 1"
+  },
+  {
+    "solution": "4c 2c 2h 4s 2s",
+    "hands": "10s 4h 2d ks 8d qd",
+    "trophies": "2 1 3 1 2 3 2 1 3"
+  },
+  {
+    "solution": "10d jd qh qd kd",
+    "hands": "as 4h ad ac qs 3c",
+    "trophies": "3 1 2 3 2 1 2 1 3"
+  },
+  {
+    "solution": "4d 5s 6d 6c 8h",
+    "hands": "3h 2c 8c 8s 6s 6h",
+    "trophies": "1 3 2 2 3 1 3 2 1"
+  },
+  {
+    "solution": "6c 8s 5h 4d kh",
+    "hands": "7s 5c 8c 5d 8h kc",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "7s 8d 5h 6c kh",
+    "hands": "10h 8s 2s 4d ac kc",
+    "trophies": "1 3 2 2 1 3 3 1 2"
+  },
+  {
+    "solution": "4s 5d 2s 3s 5s",
+    "hands": "4c 5h 6h qc ah as",
+    "trophies": "1 3 2 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3d as 4c 5d 5h",
+    "hands": "5c 5s 6c qh 2s 4h",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "kc ks js 3h kh",
+    "hands": "3s jc kd 7s 3c 3d",
+    "trophies": "2 1 3 3 2 1 2 1 3"
+  },
+  {
+    "solution": "3d 6s 4d 10c 10h",
+    "hands": "6d 4s 2s 5h 6c 10d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8c 7c 5d 5s as",
+    "hands": "6h 9d ah ac 8h 5h",
+    "trophies": "1 3 2 2 3 1 3 1 2"
+  },
+  {
+    "solution": "10s 6c 7d 5h 5s",
+    "hands": "5c 5d 3c 4h 10c 6s",
+    "trophies": "2 3 1 2 1 3 1 2 3"
+  },
+  {
+    "solution": "qd kh ah ac 5h",
+    "hands": "jh 10d ks as 5d 5c",
+    "trophies": "1 2 3 2 1 3 3 1 2"
+  },
+  {
+    "solution": "9s 6s 8s 5d 9d",
+    "hands": "2s 10s 9h 6d 7c 7h",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "4h 6d 5h as 2h",
+    "hands": "ac 3s jh 6h qh qd",
+    "trophies": "3 2 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "9s 3h 8d jh js",
+    "hands": "10d 8s 9c 9h jd 3d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "qs 2s js 5s 2h",
+    "hands": "as qc 2d jh 5c 5d",
+    "trophies": "2 1 3 1 3 2 3 2 1"
+  },
+  {
+    "solution": "6s 7s 3s 7h 4s",
+    "hands": "5s 10s 10d kh 7c 3d",
+    "trophies": "1 3 2 2 3 1 1 3 2"
+  },
+  {
+    "solution": "7h 7s jh 8h 9h",
+    "hands": "10h 9c 8s 8d ac 7c",
+    "trophies": "3 2 1 2 1 3 1 2 3"
+  },
+  {
+    "solution": "8d 5d 3s 3c ks",
+    "hands": "kc qs 5h 8h jc 3h",
+    "trophies": "3 1 2 3 2 1 2 3 1"
+  },
+  {
+    "solution": "8s 5s 2h 7h 6s",
+    "hands": "4h 4c 5d 2c 3s 7s",
+    "trophies": "2 1 3 3 1 2 2 3 1"
+  },
+  {
+    "solution": "3d 5c 8d 4c 4d",
+    "hands": "8s jc 3c 5s 8h 4h",
+    "trophies": "2 1 3 3 2 1 2 3 1"
+  },
+  {
+    "solution": "5s 4h 5h 6c 8d",
+    "hands": "5c 8s 2s 3h 6h qc",
+    "trophies": "1 3 2 2 1 3 1 2 3"
+  },
+  {
+    "solution": "2s 5s 3d qs qc",
+    "hands": "qd 5h ac 4c as ks",
+    "trophies": "2 1 3 3 2 1 1 3 2"
+  },
+  {
+    "solution": "js 4c 4s kc jh",
+    "hands": "qd qh 4h 8c kd jc",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8c 9h 9d 9s kd",
+    "hands": "kh 6c 9c 4h 8s 8h",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "qs 8c 8s 10s qh",
+    "hands": "5s 7s 10c 8h qc 3s",
+    "trophies": "3 1 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "3c 6c 5c 3s 2c",
+    "hands": "3d 6s kd 2s 7d 4c",
+    "trophies": "2 3 1 1 3 2 2 3 1"
+  },
+  {
+    "solution": "kc ks 10h jd qh",
+    "hands": "kh 2h 9h qs ac ad",
+    "trophies": "1 3 2 2 1 3 3 2 1"
+  },
+  {
+    "solution": "5s 5c 2h 9d 5h",
+    "hands": "8c 8s 9h 5d 2c 2d",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "6d 6s 5s 3s 7s",
+    "hands": "5c 6c qc 3h qh 4s",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "7h 9c 10c jh qc",
+    "hands": "8s 4d 9s 7c kh kd",
+    "trophies": "3 1 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "qc jc 9s 6d 9d",
+    "hands": "4s 4c 9c jd 6s qd",
+    "trophies": "3 1 2 3 2 1 3 1 2"
+  },
+  {
+    "solution": "kc 8c 10h 3h 6s",
+    "hands": "3c 3d 6d kd 8h 10c",
+    "trophies": "3 2 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "5s qs 6c 6h kd",
+    "hands": "5c 6d 7d kc 5h qd",
+    "trophies": "2 3 1 1 3 2 1 2 3"
+  },
+  {
+    "solution": "2d 4d 6c 2c 6h",
+    "hands": "6d 10c 2h 2s 3s 5s",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "5d 7d 9s 9d 8d",
+    "hands": "kh 9c 6d 6c 5h 7h",
+    "trophies": "2 3 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 2d 5c 4s 4d",
+    "hands": "4c 4h 5h 2h 8d 6c",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "7c 4c 6s 10h 9h",
+    "hands": "4h 4d 6c 8c jh 10s",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "8h 5c 7s 5h 5s",
+    "hands": "4d 4h 8s 5d 9s 6s",
+    "trophies": "3 2 1 3 1 2 2 1 3"
+  },
+  {
+    "solution": "7c 9s 6c 6h 8h",
+    "hands": "6s qc 9c 7d ac 10c",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3c 4s 7s 10h 3s",
+    "hands": "4c ad 7h 10s 10d 3h",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "3d 5h 6d 10s 10h",
+    "hands": "5d 5c 10c 10d 7c 4d",
+    "trophies": "2 3 1 3 2 1 2 1 3"
+  },
+  {
+    "solution": "5s 6d 7c 7h 6h",
+    "hands": "9h 8c 8h 7d 5d 6s",
+    "trophies": "1 3 2 1 2 3 3 1 2"
+  },
+  {
+    "solution": "7d 5s 10h 10c ks",
+    "hands": "5h 10d kd kc 7s 5c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "6d 5d 4d 5c qd",
+    "hands": "5s 4c 3s 2d qc qs",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3s 6d 3h 5d 8d",
+    "hands": "4s as 3c 6c 4d 7d",
+    "trophies": "2 1 3 3 1 2 3 2 1"
+  },
+  {
+    "solution": "8c kd 3s qd qc",
+    "hands": "qh qs 8s 3c 4c ks",
+    "trophies": "3 1 2 1 2 3 1 3 2"
+  },
+  {
+    "solution": "7s 9s jh kc 9d",
+    "hands": "7d jc ks 10d as 9h",
+    "trophies": "1 3 2 1 2 3 3 2 1"
+  },
+  {
+    "solution": "qs 8s 10s 3c jd",
+    "hands": "3d 8c 9c 9h ad qh",
+    "trophies": "3 2 1 1 3 2 2 1 3"
+  },
+  {
+    "solution": "jc 10s 10d qd 10c",
+    "hands": "10h 2h kh 9h qc qs",
+    "trophies": "1 3 2 3 2 1 1 3 2"
+  },
+  {
+    "solution": "3d js 3c qd ac",
+    "hands": "3s 4c 8d qh 10c kc",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  },
+  {
+    "solution": "3d 4h 2d 7c 5s",
+    "hands": "3c 2c 7s 6c 3s 9c",
+    "trophies": "1 3 2 1 2 3 2 1 3"
+  },
+  {
+    "solution": "9c 3h 10h ah 3d",
+    "hands": "10c 3c 7h jh as 9h",
+    "trophies": "1 3 2 3 1 2 1 2 3"
+  },
+  {
+    "solution": "6d 8d 9c 4h 7d",
+    "hands": "5d 9d 8h 4c 5h qc",
+    "trophies": "1 2 3 2 1 3 1 3 2"
+  },
+  {
+    "solution": "10s js 2c 9s 8s",
+    "hands": "2d 10h 7s 7d 9c 6d",
+    "trophies": "1 2 3 1 3 2 2 1 3"
+  },
+  {
+    "solution": "qh 8h ah 8c qs",
+    "hands": "ac 8d 9h 3h qc 3c",
+    "trophies": "2 1 3 1 2 3 2 3 1"
+  },
+  {
+    "solution": "ad 3d ah 5d 2d",
+    "hands": "as 3h 5c 8c 4d 4c",
+    "trophies": "1 3 2 1 2 3 2 3 1"
+  }
+]

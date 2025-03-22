@@ -320,6 +320,7 @@ public class Pokle: CustomStringConvertible {
         var maxSum = 0
 
         var tableSequence: any Sequence<Table> = tables
+
         if verbose {
             print("Calculating optimal table...")
             tableSequence = Progress(tables)
